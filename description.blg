@@ -1,13 +1,21 @@
-[0] Config.pm:318> INFO - This is Biber 1.8
-[0] Config.pm:321> INFO - Logfile is 'description.blg'
-[57] biber:275> INFO - === lun dic 12, 2016, 00:11:06
-[57] Biber.pm:333> INFO - Reading 'description.bcf'
-[109] Biber.pm:607> INFO - Using all citekeys in bib section 0
-[121] Biber.pm:3053> INFO - Processing section 0
-[134] Biber.pm:3190> INFO - Looking for bibtex format file 'bib1.bib' for section 0
-[135] bibtex.pm:808> INFO - Found BibTeX data source 'bib1.bib'
-[238] Biber.pm:2939> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[238] Biber.pm:2945> INFO - Sorting 'entry' list 'nty' keys
-[239] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_US.UTF-8'
-[319] bbl.pm:482> INFO - Writing 'description.bbl' with encoding 'latin1'
-[324] bbl.pm:555> INFO - Output to description.bbl
+[1] Config.pm:340> INFO - This is Biber 2.4
+[1] Config.pm:343> INFO - Logfile is 'description.blg'
+[48] biber:290> INFO - === Tue Dec 13, 2016, 00:36:45
+[62] Biber.pm:347> INFO - Reading 'description.bcf'
+[160] Biber.pm:738> INFO - Using all citekeys in bib section 0
+[172] Biber.pm:3150> INFO - Processing section 0
+[215] Biber.pm:3307> INFO - Looking for bibtex format file 'bib1.bib' for section 0
+[217] bibtex.pm:1124> INFO - Decoding LaTeX character macros into UTF-8
+[219] bibtex.pm:985> INFO - Found BibTeX data source 'bib1.bib'
+[618] UCollate.pm:65> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[618] UCollate.pm:65> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[619] Biber.pm:3027> INFO - Sorting list 'nty/global' of type 'entry' with scheme 'nty' and locale 'fr-FR'
+[677] bbl.pm:519> INFO - Writing 'description.bbl' with encoding 'latin1'
+[680] Utils.pm:147> WARN - The entry 'alsaih2016classification' has characters which cannot be encoded in 'latin1'. Recoding problematic characters into macros.
+[682] Utils.pm:147> WARN - The entry 'lemaitre2016classification' has characters which cannot be encoded in 'latin1'. Recoding problematic characters into macros.
+[684] Utils.pm:147> WARN - The entry 'lemaitre2015classification' has characters which cannot be encoded in 'latin1'. Recoding problematic characters into macros.
+[685] Utils.pm:147> WARN - The entry 'massich2015optimization' has characters which cannot be encoded in 'latin1'. Recoding problematic characters into macros.
+[687] Utils.pm:147> WARN - The entry 'massich2016classifying' has characters which cannot be encoded in 'latin1'. Recoding problematic characters into macros.
+[691] Utils.pm:147> WARN - The entry 'sidibe2017anomaly' has characters which cannot be encoded in 'latin1'. Recoding problematic characters into macros.
+[692] bbl.pm:615> INFO - Output to description.bbl
+[692] Biber.pm:108> INFO - WARNINGS: 6
