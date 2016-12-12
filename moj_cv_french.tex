@@ -1,0 +1,258 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% moderncv themes
+\moderncvtheme[grey]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{multibib}
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+\usepackage{xcolor}
+\usepackage{nth}
+\usepackage{tikz}
+\usetikzlibrary{decorations.text}
+\usepackage{ifthen}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Mojdeh}
+\familyname{Rastgoo}
+\title{Le2i - Laboratoire Electronique, Inofrmatique et Image}               % optional, remove the line if not wanted
+\address{86 Rue Mar\'echal Foch, \nth{2} floor}{71200 Le Creusot - France}    % optional, remove the line if not wanted
+\mobile{+33(0)78101688}                    % optional, remove the line if not wanted
+%\phone{phone (optional)}                      % optional, remove the line if not wanted
+%\fax{fax (optional)}                          % optional, remove the line if not wanted
+\email{mojdeh.rastgoo@gmail.com}                      % optional, remove the line if not wanted
+%\homepage{homepage (optional)}                % optional, remove the line if not wanted
+\extrainfo{Universit\'e de Bourgogne} % optional, remove the line if not wanted
+\photo[65pt]{mojdeh}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{What is important is to keep learning, to enjoy challenge, and to tolerate ambiguity.}                % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+\section{\textbf{Research Interests}}
+\input{interest_chart.tex}
+
+\section{\textbf{Education}}
+\cvline{}{\color{gray}{Research}}
+
+\cventry{2016 - 2018}{Post-doctoral research}{Universit\'e de Bourgogne, Le2i, Le Creusot(France)}{}{}{}
+\cvline{Title}{\emph{Polarimetric Vision Applied to Robotics Navigation}}
+%\cvline{Supervisors}{Dr. Olivier Morel}
+%\cvline{Description}{\small }
+\cvline{}{\color{gray}{Studies}}
+\cventry{2012 - 2016}{Co-joined PhD candidate}{Universitat de Girona,Girona (Spain), Universit\'e de Bourgogne, Le Creusot (France)}{}{}{}
+\cvline{Supervisors}{Dr. Franck Marzani, Dr. Rafael Garcia, Dr. Olivier Morel}
+\cvline{Title}{\emph{An Approach to Melanoma Classification Exploiting Polarization Information}}
+\cvline{Description}{\small Developing a classification framework for automatic detection of melanoma lesions while exploiting polarization properties beyond cross-polarized dermoscopes. Using our new polarized dermoscope it was our interest to find new features for classification of melanoma and new techniques for screening of this pigmented lesion.}
+
+\cventry{2009 - 2011}{Erasmus Mundus Master in Vision and Robotics (ViBOT)}{Heriot -Watt University, Edinburgh (Scotland);
+		      Univeristat de Girona, Girona (Spain);
+		      Universit\'e de Bourgogne, Le Creusot (France)}{}{}{} 
+\cvline{}{\textbf{- 2:1 Class Hounor (Mention Bien)}}
+\cvline{-}{Master thesis (Universitat de Girona):}
+%\cvline{}{\emph{Universitat de Girona (Spain)}}
+\cvline{Title}{\emph{Change Detection in Epiluminescent Microscopy for Early Detection of Skin Cancer}}
+\cvline{Supervisor}{Dr. Rafael Garcia}
+\cvline{Description}{\small Implementing a new computer aided system in order to detect changes, segment and characterize epiluminescent microscopy images}
+\cventry{2005 - 2009}{Bachelor of Electrical and Electronics Engineering}{University Teknologi PETRONAS, Ipoh (Malaysia)}{} {}{} % arguments 3 to 6 can be left empty
+\cvline {}{\textbf{- $1^{st}$ Class Hounor, CGPA: 3.64/4.00}}
+
+\cvline{}{\color{gray}{Summer schools}}
+\cventry{July 2014}{Medical Imaging Summer School (MISS)}{Favignana, Italy}{}{}{} 
+\cvline{}{\color{gray}{Scholarships}}
+\cventry{2009-2011}{Erasmus Mundus Master Scholarship}{}{}{}{} 
+\cvline{}{European master in Vision and Robotics}
+\cventry{2005- 2009}{PETRONAS Bachelor scholarship}{}{}{}{}
+\cvline{}{Bachelor of Electrical and Electronics Engineering}
+
+%\section{Master thesis}
+%\cvline{Title}{\emph{Change detection in epiluminescent microscopy for early detection of
+%skin cancer}}
+%\cvline{Supervisors}{Dr. Rafael Garcia - Univeristat de Girona}
+%\cvline{Description}{\small Epiluminescence microscopy (also called dermoscopy) refers to the examination of the skin using skin surface microscopy. This technique is mainly used to evaluate pigmented lesions in order to distinguish malignant skin lesions, such as melanoma and pigmented basal cell carcinoma, from benign lesions. Using dermoscopy to evaluate pigmented lesions, the abnormal structural features of melanoma can be identified, borderline lesions may be closely observed and benign lesions can be confidently diagnosed without the need for biopsy. On the other hand, the repeated mapping over time of the same pigmented lesion enables temporal studies. The change of a lesion over time is an indicator for early detection of skin cancer. 
+%In this project, we proposed a new computer aided system in order to segment and characterize epiluminescence microscopy images with change detection techniques. The changes of the images over the time were analysed in order to highlight the obvious changes in the pigmented lesions. The change candidates with the highest score then were analysed for more detail segmentation of the lesion and characteristic of the  pigmented area.}
+
+%The main objective of this project is being able to localize the moles in the skin in order to observe the changes over the time. The project involves, skin detection, hair removals, inpainting and finally localization of the moles in terms of colour, location and diameter
+
+\section{\textbf{Experience}}
+
+\cventry{2016-2017}{\textbf{Vacations}}{Introduction to Image Processing, Digital Signal Processing, Maple}{Universit\'e de Bourgogne - Le Creusot - (France)}{}{}
+
+\cventry{2012-2014}{\textbf{Vacations}}{Imagerie m\'edicale}{Universitat de Girona - Girona - (Spain)}{}
+{- Introduction des m\'ethodes de mise en correspondance et d'alignement en utilisant ITK.\newline
+ - Introduction \`a la segmentation en utilisant MevisLab.\newline
+ - Segmentation and delineation of melanoma lesions. }
+\cventry{2011-2012}{\textbf{Emploi int\'erimaire}}{Data mining and classification}{Barcelona Digital - Barcelona (Spain)}{}
+{- Developing a method for continous learning and pruning the classifiers.}
+
+\cventry{2010}{\textbf{Emploi int\'erimaire}}{Astronomical image analysis, segmentation and localization of astronomical objects.}{Universitat de Girona - Girona (Spain)}{}{}
+\cventry{2007}{\textbf{Emploi int\'erimaire}}{Oil and Gas platform designers}{Ranhill Worley Parsons Sdn Bhd - Kuala Lumpur (Malaysia)}{}
+{- Power and electrical department.\newline
+ - Designing lightning protections systems for structures.}
+\section{\textbf{Languages}}
+\cvlanguage{English}{Fluent in all skills}{}
+\cvlanguage{French}{interm\'ediaire}{}
+\cvlanguage{Spanish}{Basic- Level 2}{}
+\cvlanguage{Arabic}{Basic}{}
+\cvlanguage{Persian}{Advanced Level}{Mother tongue}
+
+%% \section{Computer skills}
+%% \cvcomputer{OS}{Linux/Unix, Windows}{}{}
+%% \cvcomputer{Programming}{Matlab, Python, OpenCV, C/C++, Java, Assembly, VHDL}{}{}
+%% %\cvcomputer{Engineering Software}{MATLAB}{}{}
+%% \cvcomputer{Typography}{LATEX, Microsoft Office, Open Office}{}{}
+
+\section{\textbf{Habilet\'e informatique}}
+\cvcomputer{OS}{\small{Linux/Unix, Windows, DOS}}{}{}
+\cvcomputer{Programmation}{ \small{C/C++, Python, Java, VHDL, Assembly}}{}{}
+\cvcomputer {Environement} {\small{Emacs, QT, VisualStudio.NET, Dev C++, Eclipse}} {Scientifique}{\small{Matlab, Maple, OpenCV, ITK}}
+\cvcomputer{Typographie}{\small{\LaTeX, Microsoft Office, Open Office}} {}{}
+
+
+%% \section{Hobbies}
+%% \cvline{}{\small Badminton, Running, Dance, Reading, Music, Traveling, Movies}{}{}
+
+
+
+\section{\textbf{Publication}}
+\cvline{}{\color{gray}{Journal}}
+\cvline{}{\textbf{M. Rastgoo, O. Morel, F. Marzani and R. Garcia}, ``Automatic Differentiation of Melanoma from Dysplastic Nevi'', \emph{Computerized Medical Imaging and Graphics}, vol.43, pp 44-52, 2015}
+\cvline{}{\textbf{D. Sidibe, S. Sankar, G. Lemaitre, M. Rastgoo, J. Massich, C. Y. Cheung, G. S. W. Tan, D. Milea, E. Lamoureux, T. Y. Wong, and F. Meriaudeau}, ``An anomaly detection approach for the identification of DME patients using SD-OCT images'', \emph{Computer Methods and Programs in Biomedicine}, To be appear 2017}
+
+\cvline{}{\textbf{G. Lemaitre, M. Rastgoo, J. Massich, C. Y. Cheung, T. Y. Wong, E. Lamoureux, D. Milea, F. Meriaudeau, and D. Sidibe}, ``Classification of SD-OCT Volumes using Local Binary Patterns: Experimental Validation for DME detection'', \emph{Journal of Ophthalmology}, vol. 2016, May 2016}
+
+\cvline{}{\color{gray}{International Conferences}}
+
+\cvline{}{\textbf{J. Massich, M. Rastgoo, G. Lemaitre, C. Cheung, T. Y. Wong, D. Sidibe, and F. Meriaudeau},``Classifying DME vs normal SD-OCT volumes: A review'', \emph{ICPR, 2016}, Cancun: Mexico (December 2016)}
+
+\cvline{}{\textbf{D. Sidibe, M. Rastgoo, F. Meriaudeau},``On Spatio-Temporal Saliency Detection in Videos using Multilinear PCA'', \emph{ICPR, 2016}, Cancun: Mexico (December 2016)}
+
+\cvline{}{\textbf{K. Alsaih, G. Lemaitre, J. Massich, M. Rastgoo, D. Sidibe, T. Y. Wong, E. Lamoureux, D. Milea, C. Leung, and F. Meriaudeau},``Classification of SD-OCT volumes with multi-pyramids, LBP and HoG descriptors: Application to DME detection'', \emph{EMBC, 2016}, Orlando: USA (August 2016)}
+
+
+\cvline{}{\textbf{M. Rastgoo, G. Lemaitre, J. Massich, O.Morel, F. Marzani, R. Garcia and F. Meriaudeau}, ``Study of Data Imbalancing for Melanoma Classification'', \emph{$3^{rd}$ International Conference on BIOIMAGING 2016.} Rome: Italy (February 2016)}
+
+\cvline{}{\textbf{M. Rastgoo, G. Lemaitre, O.Morel, J. Massich, F. Marzani, R. Garcia and D. Sidibe}, ``Classification of melanoma lesions using sparse coded features and radnom forests'', \emph{SPIE Medical Imaging 2016.} San Diego: USA (February 2016)}
+
+\cvline{}{\textbf{G. Lemaitre, M. Rastgoo, J. Massich, J. C. Vilanova, P. M. Walker, J. Freixenet, A.Meyer-Baese, F. Meriaudeau, and R. Marti}, ``Normalization of T2W-MRI prostate images using Rician a priori'', \emph{SPIE Medical Imaging 2016.} San Diego: USA (February 2016)}
+
+\cvline{}{\textbf{A. Meyer-Baese, J. Massich, G. Lemaitre, and M. Rastgoo}, ``Real-Time Optical Flow with Theoretically Justified Warping Applied to Medical Imaging'', \emph{Breast Image Analysis Workshop (BIA), Medical Image Computing and Computer Assisted Interventions (MICCAI) 2015.} Munich: Germany (October)}
+
+\cvline{}{\textbf{J. Massich, G. Lemaitre, M. Rastgoo, A. Meyer-Baese, J. Marti and F. Meriaudeau}, ``An Optimization Approach to Segment Breast Lesions in Ultra-Sound Images using Clinically Validated Visual Cues'', \emph{Breast Image Analysis Workshop (BIA), Medical Image Computing and Computer Assisted Interventions (MICCAI) 2015.} Munich: Germany (October) }
+
+\cvline{}{\textbf{G. Lemaitre, M. Rastgoo, J. Massich, S. Sankar, F. Meriaudeau and D. Sidibe}, ``Classification of SD-OCT volumes with LBP: application to DME detection'', \emph{Ophthalmic Medical Image Analysis Workshop (OMIA), Medical Image Computing and Computer Assisted Interventions (MICCAI) 2015.} Munich: Germany (October) }
+
+\cvline{}{\textbf{M. Rastgoo, O. Morel, F. Marzani and R. Garcia}, ``Ensemble Approach for Differentiation of Malignant Melanoma'', \emph{International Conference on Quality Control and Artificial Vision (QCAV) 2015.} Le Creusot: France (June 2015)}
+
+\cvline{}{\textbf{M. Rastgoo, G. Lemaitre, X. Rafael, F. Miralles and P. Casale}, ``Pruning AdaBoost for Continuous Sensors Mining Applications'', \emph{Ubiquitous Data Mining Workshop, 20th European Conference in Artificial Intelligence 2012.} Montpellier: France(August 2012)}
+
+\cvline{}{\textbf{P. Casale, J.M Fernandez, X. Rafael, S. Torrellas, M. Rastgoo, F. Miralles}, ``Enhancing User Experience with Brain Neural Computer Interface in Smart Home Environment'', \emph{8th IEEE International Conference of Intelligent Environments 2012.} INTENV12, June 2012}
+
+\cvline{}{\color{gray}{Technical Reports}}
+
+\cvline{}{\textbf{M. Rastgoo}, ``An Approach to Melanoma Classification Exploiting Polarization Information'', \emph{Universitst de Girona, Universit\'e de Bourgogne.} 2016}
+
+\cvline{}{\textbf{M. Rastgoo and R. Garcia}, ``Change Detection in Epiluminescent Microscopy for Early Detection of Skin Cancer'', \emph{Universitst de Girona, Universit\'e de Bourgogne, Heriot Watt University.} 2011}
+
+
+
+
+
+
+
+%\section{Academic Background}
+%\cvline{Image Processing}{Segmentation, Classification, Feature extraction, Medical imaging, Wavelet, Morphological operations, ...}
+%\cvline{Signal Processing}{Digital signal processing, Laplace transform, \textit{z} transform, Fourier transform, Wavelet transform, ...}
+%\cvline{Electrical}{Industrial and automation, Control engineering, Power electrical, ...}
+
+
+%\section{Interests}
+%\cvline{Sports}{\small Badminton, Dance, Football, Basketball}
+%\cvline{Others}{\small Travelling, Reading}
+%\cvline{Reading}{}
+
+%\section{Extra 1}
+%\cvlistitem{Item 1}
+%\cvlistitem{Item 2}
+%\cvlistitem[+]{Item 3}            % optional other symbol
+%
+%\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+%
+%\section{Extra 2}
+%\cvlistdoubleitem{Item 1}{Item 4}
+%\cvlistdoubleitem{Item 2}{Item 5 \cite{book1}}
+%\cvlistdoubleitem{Item 3}{}
+
+%\begin{center}
+%\textit{Reference will be available upon request}
+%\end{center}
+
+
+%\cvline{}{\color{gray}{Project}}
+%\cvline{2011}{\textbf{Master project - Pattern Recognition},``Crack detection on wood samples'', Universit\'e de Bourgogne, Le Creusot }
+%\cvline{}{Group project. The cracks were detected based on different segmentation and classification methods}
+%\cvline{2011}{\textbf{Master project - Medical Imaging}, ``Management and post-processing of prostate perfusion on MRI GUI'', Universit\'e de Bourgogne, Le Creusot}
+%\cvline{}{Group project. Designing a user interface for localizing the prostate cancer on perfusion images, based on wash-in, wash-out and maximum contrast enhancement parameters from images}
+%\cvline{2011}{\textbf{Master project - 3D Digitization}, ``Active appearance model for face detection'', Universit\'e de Bourgogne, Le Creusot}
+%\cvline{}{Group project. Implementing face tracking algorithm based on active shape models with reference to T.F. Gootes and C.J. Taylor work on IMM database}
+%\cvline{2010}{\textbf{Master project - Real Time Image Processing}, ``Real time face detection'', Universitat de Girona, Girona}
+%\cvline{}{Group project. Implementing a real time face detection algorithm in C Programming based on Viola Jones method}
+%\cvline{2010}{\textbf{Master project - Scene Segmentation}, ``Pascal project'', Universitat de Girona, Girona}
+%\cvline{}{Group project. Developing different feature extraction, clustering and classification approaches, in order to solve the pascal challenge}
+%\cvline{2009}{\textbf{Final Year Project}, ``Application of power line systems for transmission of RF and microwave signals'', University Teknologi PETRONAS, Ipoh, Malaysia}
+%\cvline{}{Evaluating the potential of the power line and the magnetic fields around the line for transferring the RF and microwave signals}
+
+%\section{Extra curricular activities}
+%\cvline{2008}{\small International Student Committee member, Malaysia}
+%\cvline{2007}{\small SPE-UTP Oil and Gas Symposium as Public Relation (PR), Malaysia}
+%\cvline{2006 - 2007}{\small Robocon team member, Malaysia}
+%\cvline{2007}{\small International Student Club Olympics-Basket ball team, Malaysia}
+%\cvline{2007}{\small Dance group of International Colourful night , Malaysia}
+
+% Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications}       % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}   % 'publications' is the name of a BibTeX file
+
+\end{document}
+
+
+%% end of file `template_en.tex'.

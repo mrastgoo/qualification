@@ -1,0 +1,289 @@
+\documentclass[a4paper,10pt]{article}
+% Importation de packages divers
+   \NeedsTeXFormat{LaTeX2e}
+   \usepackage[usenames]{color}
+   \usepackage[paper=a4paper,textwidth=160mm,hmargin=2.5cm, vmargin=1.5cm]{geometry}
+   \usepackage{fancyhdr}
+   \usepackage{lastpage}
+   \usepackage[usenames,dvipsnames]{xcolor}
+   \usepackage{float}
+   \usepackage{subfigure}
+   \definecolor{light-gray}{gray}{0.95}
+   \usepackage{titlesec}
+   \usepackage{epsf,graphicx}
+   \usepackage[style=numeric-comp,backend=biber,maxcitenames=10,
+   mincitenames=10, maxbibnames=99, minbibnames=99
+   ]{biblatex}
+   %\usepackage{biblatex}
+%\bibliography{bib1}
+\addbibresource{bib1.bib}
+\usepackage{epstopdf}
+   \titleformat*{\section}{\centering\normalfont\Large\bfseries}
+
+\restylefloat{table}
+    % pour l'affichage du n° de la dernière page.
+   \usepackage[latin1]{inputenc}        % utilisation des caractèrres 8 bits en Unix (codage ISO 8859-1)
+ %  \usepackage{floatflt,multirow}       % pour l'utilisation des
+ %  figure ``noyée'' dans le texte
+   \usepackage{multirow}
+   \usepackage[francais]{babel}         % Utilisation du français (nom des sections, césure, ponctuation, ...)
+   \usepackage{amsmath,amsthm,amssymb}  % Utilisation de certains packages de AMS (cf. belles équations)
+   \usepackage{fontenc}
+   \usepackage[cyr]{aeguill}
+   \usepackage{endnotes}                % Pour l'utilisation des notes en fin de documents
+   \usepackage{verbatim}                % Pour l'insertion de fichier en mode verbatim
+   % \usepackage[pdftitle={Dossier de Qualifiation},  % apparition ds les propriétés du doc
+   %             pdfauthor={Guillaume Lemaitre},
+   %             pdfsubject={Qualification},
+   %             pdfkeywords={Simplicite},
+   %             colorlinks=true,
+   %             linkcolor=webdarkblue,
+   %             filecolor=webblue,
+   %             urlcolor=webdarkblue,
+   %             citecolor=webgreen]{hyperref}     % pour l'utilisation des liens http,...
+   \usepackage{portland}		% pour l'utilisation de \portrait et de \landscape sur une page
+%\pagestyle{fancy}
+%opening
+
+   \usepackage{booktabs}
+
+\begin{document}
+
+\section{Activités pédagogiques}
+  \vspace{-0.5cm}
+  \begin{center}
+\underline{\hspace{8cm}}
+\end{center}
+
+\subsection{Résumé des enseignements}
+
+Vous pourrez trouver dans le tableau~\ref{tab:enseignement}, un résumé
+des enseignements effectués durant ma thèse. Referrez-vous à la
+section~\ref{sec:details} pour les détails concernant chaque
+enseignement.
+
+\begin{table}[h]
+  \centering
+  {\renewcommand{\arraystretch}{1.2}
+    \caption{Récapitulatif des enseignements effectués}
+    \begin{tabular}{llcccc}
+      \toprule
+      \textbf{Année} &
+      \textbf{Enseignement} &
+                                             \textbf{Niveau}          & \multicolumn{3}{c}{\textbf{Volume}} \\ \cmidrule(lr){4-6}
+                                           &
+                                                                                     &
+                                           &                                            CM
+                                          & TD & TP           \\ \midrule
+      \multirow{3}{*}{2014/2015} & Bases de données & DUT GEII 1\textsuperscript{ère} année & & 66h & \\
+      & Traitement du signal & DUT MP 2\textsuperscript{ème} année & & &
+                                                                       24h\\
+      & Machine learning \& pattern recognition & Master Vibot
+                                                1\textsuperscript{ère}
+                                                                                     & &
+                                                                                       14h
+                                                                                     &
+      \\ \cmidrule(lr){1-6}
+      \multirow{5}{*}{2015/2016} & C++ & DUT GEII
+                                         2\textsuperscript{ème} année
+                                                                      &
+                                           & 19h & 8h \\
+      & Traitement du signal & DUT MP 2\textsuperscript{ème} année & & &
+                                                                       24h\\
+      & Introduction to image processing & Master Vibot
+                                                1\textsuperscript{ère}
+                                                                                     &
+                                           14h &
+                                                                                       12h
+                                                                                     &
+                                                                                       22h
+      \\
+      & Software engineering & Master Vibot
+                                                1\textsuperscript{ère}
+                                                                                     &
+                                            &
+
+                                                                                     &
+                                                                                       12h
+      \\
+            & Machine learning \& pattern recognition & Master Vibot
+                                                1\textsuperscript{ère}
+                                                                                     & &
+
+                                                                                     & 16h
+      \\
+      \midrule
+      \textbf{Total} & & & \textbf{14h} & \textbf{112h} & \textbf{86h} \\
+      \bottomrule
+    \end{tabular}}
+  \label{tab:enseignement}
+\end{table}
+
+\subsection{Détails des enseignements}\label{sec:details}
+
+\begin{description}
+\item[Bases de données] Cet enseignement a eu pour but d'introduire les
+  bases de données aux étudiants de 1\textsuperscript{ère}
+  année de génie électrique et informatique industrielle (GEII). Dans un
+  premier temps, l'introduction aux notions élémentaires
+  (relations, normes, etc.) a été
+  réalisée en utilisant Microsoft Access. Par la suite, les sessions
+  plus appronfondies ont mis l'accent sur le language SQL afin de
+  perfectioner les notions introduites précédemments. Etant en charge,
+  de ce module, j'ai eu la liberté et l'opportunité de développer les
+  différents supports pédagogiques.
+\item[C++] Cet enseignement a présenté aux étudiants de GEII, le
+  concept de la programmation orientée objet (POO) par le biais du language
+  C++. Les principes de POO ont été abordées en utilisant les outils
+  Qt.
+\item[Traitement du signal] Cet enseignement a eu pour but
+  d'introduire des notions de traitement du signal numérique à des étudiants de
+  mesure physique (MP). Donc les concepts de filtres, d'analyse
+  fréquentielle parmi d'autres ont été abordés en utilisant le
+  language de programmation Python.
+\item[Machine learning and pattern recognition] J'ai été en charge de
+  développer une série de TPs pour des étudiants du Master Erasmus Mundus
+  Vision et robotique (Vibot) présentant les concepts de bases du machine learning et
+  pattern recognition. Ces TPs ont été mis en oeuvre en utilisant
+  Python et l'utilisation de notebook. Nous nous sommes intéressés
+  principalement aux différentes méthodes formant la chaine de
+  classification : normalisation, extraction et sélection de caractéristiques, réduction des dimensions
+  et les différentes méthodes de classification.
+\item[Software engineering] Pour ces même étudiants de master Vibot,
+  j'ai eu l'occasion de développer des enseignements liés au génie de
+  l'application. J'ai peu introduire les concepts de POO ainsi que
+  l'utilisation des librairies standard de C++. De plus, l'utilisation
+  d'outils de développement collaboratif, de controle de versions,
+  d'intégration continue (git, GitHub, Travis, CMake, GTest) ont été
+  présentés et utilisés.
+\item[Introduction to image processing] J'ai été en charge de
+  l'enseignement d'un module d'introduction aux traitements de l'image
+  à des étudiants du master Vibot. J'ai eu l'occasion d'effectuer des
+  cours magistraux ainsi que des TDs et TPs. Les concepts du
+  traitement de l'image ont été introduit en utilisant le language
+  Python et en utilisant et analysant la toolbox scikit-image.
+\end{description}
+
+
+\subsection{Supervision de projet}
+
+Durant ma thèse, j'ai également supérvisé des étudiants de master
+Vibot pendant des internships et leur stage de fin d'études. J'ai donc
+eu l'occasion d'encadrer trois étudiants lors d'un internship d'un
+mois. J'ai également encadré un étudiant sur des travaux liés à notre
+thématique de recherche, publisant ainsi la conférence suivante :
+Alsaih, Khaled, et al. "Classification of SD-OCT volumes with multi pyramids, LBP and HOG descriptors: application to DME detections." 38th IEEE Engineering in Medicine and Biology Society (EMBC). 2016.
+
+\subsection{Responsabilité d'unité d'enseignement}
+
+J'ai donc assuré la coordination du module d'introduction au
+traitement de l'image dans le Master Vibot.
+
+\section{Activités de recherches}
+  \vspace{-0.5cm}
+  \begin{center}
+\underline{\hspace{8cm}}
+\end{center}
+
+\subsection{Résumé de thèse}
+
+Le cancer de la prostate est le second type de cancer le plus diagnostiqu\'e au monde.
+Il est caract\'eris\'e par deux evolutions distinctes : (i) les tumeurs \`a croissances lentes progressent lentement et restent g\'en\'eralement confin\'ees dans la glande prostatique; (ii) les tumeurs \`a croissances rapides se m\'etastasent de la prostate \`a d'autres organes p\'eriph\'eriques, pouvant causer le d\'evelopement de maladies incurables.
+C'est pour cela qu'un diagnostic pr\'ecoce et une \'evaluation du risque jouent des r\^oles majeurs dans le traitement et le suivi du patient.
+Durant la derni\`ere d\'ec\'enie, de nouvelles m\'ethodes d'imagerie bas\'ees sur l'Imagerie par R\'esonance Magn\'etique (IRM) ont \'et\'e d\'evelop\'ees.
+En pratique, le diagnostic clinique peut \^etre affect\'e par de multiples facteurs comme la variabilit\'e entre observateurs et la complexit\'e des l\'esions lues.
+Pour ce faire, des syst\`emes de d\'etection et de diagnostic assist\'e par ordinateur (DAO) ont \'et\'e d\'evelop\'es pour aider les radiologistes durant leurs t\^aches cliniques.
+
+Notre recherche analyse extensivement l'\'etat de l'art actuel concernant le d\'evelopement des syst\`emes de DAO pour la d\'etection du cancer de la prostate.
+Actuellement, il n'\'existe aucun syst\`eme de DAO utilisant toutes les modalit\'es IRM disponibles et qui plus est, test\'e sur une base de donn\'ees commune.
+Par cons\'equent, nous proposons un nouveau syst\`eme de DAO tirant profit de toutes les modalit\'es IRM (i.e., T2W-MRI, DCE-MRI, DW-MRI, MRSI).
+Une attention particuli\`ere est port\'ee sur la normalisation de ces donn\'ees multi-param\'etriques avant la conception du syst\`eme de DAO.
+De plus, notre syst\`eme de DAO a \'et\'e test\'e sur une base de donn\'ees que nous rendons publique.
+
+
+\subsection{Travaux de recherche}
+
+En parallèle de mes travaux de recherche qui ont donné lieu aux publications suivantes~\cite{lemaitre2015boosting,lemaitre2015computer,lemaitre2016normalization},
+j'ai eu l'occasion de pouvoir étendre certains de ces travaux à
+d'autres domaines de recherche. Ainsi, j'ai notemment développé une
+toolbox en language Python~\cite{lemaitre2016imbalanced} qui a été
+intégré à l'écosystème scikit-learn. Ces travaux nous ont également
+permis de traiter des données médicales et particulièrement dans le
+problème de detection de mélanome~\cite{rastgoo2016tackling}.
+
+J'ai également travaillé sur des problèmes de détection de maladies
+rétinienne en utilisant différentes approches de machine learning,
+faisant l'objet des publications suivantes~\cite{alsaih2016classification,sidibe2017anomaly,lemaitre2016classification}.
+
+
+\section{Publications}
+  \vspace{-0.5cm}
+  \begin{center}
+\underline{\hspace{8cm}}
+\end{center}
+
+\nocite{*}
+
+%\bibliographystyle{plain}
+%\bibliography{bib1}
+%\renewcommand{\refname}{Publications}
+%\printbibliography
+\printbibliography[type=article,title={Revues internationales}]
+\printbibliography[type=inproceedings,title={Conférences internationales}]
+%\printbibliography [keyword=publifr,title={Conférences nationales}]
+%\printbibliography [keyword=Workshops,title={Workshops}]
+%\printbibliography [keyword=ref,heading=bibempty,title={Références}]
+%\printbibliography
+
+\newpage
+\section{Autres activités}
+  \vspace{-0.5cm}
+  \begin{center}
+\underline{\hspace{8cm}}
+\end{center}
+
+\subsection{Vulgarisation scientifique}
+J'ai participé au project Européen Erasmus+ Playful Coding. Ce projet
+introduit les principes de la programmation à des écoliers en
+utilisant des outils innovatifs tel que Scratch. Le but du projet a
+été de fournir un guide pour les enseignants des écoles afin de
+préparer des activités.
+
+\subsection{Organisation d'évènements scientifiques}
+J'ai co-organisé la seconde édition de la journée doctorale des jeunes
+chercheurs du laboratoire LE2I prenant lieu au Creusot. J'ai également
+participé à l'organisation d'évènements annexes tel que les Vibot
+Days, la semaine d'intégration du programme Vibot.
+
+\subsection{Relecture d'articles scientifiques}
+J'ai effectué des relectures pour des revues scientifiques (Journal of
+Magnetic Resonance Imaging, IEEE Journal of Biomedical and Health
+Informatics) et de conférences internationales (MICCAI, IROS)
+
+
+\subsection{Etude en parallèle}
+En parallèle de mon doctorat, j'ai réalisé un master en business
+innovation et technology management, enseigné à l'université de
+Gérone. Ce parcours m'a donné l'occasion d'acquérir des connaissances
+requises dans le monde de l'entreprise.
+
+\section{Annexes}
+  \vspace{-0.5cm}
+  \begin{center}
+\underline{\hspace{8cm}}
+\end{center}
+
+Les documents suivants sont joints à ce dossier en annexe:
+\begin{itemize}
+\item Attestation et recommandation de Yohan Fougerolle, Maître de conférence, directeur des études du Master in Computer vision et chef du département Génie électrique de l'IUT du Creusot.
+\item Attestation et recommandation de David Fofi, coordinateur du
+  Master Erasmus Mundus en vision et robotique (Vibot).
+\item Rapport de thèse : rapports de Reyer Zwiggelaar, professeur à
+  l'université d'Aberyswtyth et de Su Ruan, professeur à l'université
+  de Rouen et membre du laboratoire LITIS.
+\item Rapport de soutenance de thèse de doctorat.
+\item Attestion de réussite au doctorat.
+\item Publications en tant que premier auteur.
+\end{itemize}
+
+\end{document}

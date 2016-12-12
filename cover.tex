@@ -1,0 +1,90 @@
+\documentclass[a4paper,10pt]{article}
+% Importation de packages divers
+   \NeedsTeXFormat{LaTeX2e} 
+   \usepackage[usenames]{color}
+   \usepackage[paper=a4paper,textwidth=160mm,twosideshift=0pt,hmargin=2.5cm, vmargin=1.5cm]{geometry}
+   \usepackage{fancyhdr}
+   \usepackage{lastpage}  
+   \usepackage{wasysym}
+   \usepackage{ marvosym }
+   \usepackage{titlesec}
+\titleformat{\section}[block]{\Large\bfseries\filcenter}{}{1em}{}
+   \usepackage{float}
+\restylefloat{table}
+    % pour l'affichage du n° de la dernière page.
+   \usepackage[latin1]{inputenc}        % utilisation des caractèrres 8 bits en Unix (codage ISO 8859-1)
+ %  \usepackage{floatflt,multirow}       % pour l'utilisation des figure ``noyée'' dans le texte
+   \usepackage[francais]{babel}         % Utilisation du français (nom des sections, césure, ponctuation, ...)
+  % \usepackage{amsmath,amsthm,amssymb}  % Utilisation de certains packages de AMS (cf. belles équations)
+   \usepackage{fontenc}
+   \usepackage[cyr]{aeguill}
+   \usepackage{endnotes}                % Pour l'utilisation des notes en fin de documents
+   \usepackage{verbatim}                % Pour l'insertion de fichier en mode verbatim
+   \usepackage[pdftitle={Fichier realise a partir de base_lettre.tex},  % apparition ds les propriétés du doc
+               pdfauthor={François Rameau},
+               pdfsubject={Qualification},
+               pdfkeywords={Rameau},
+	       colorlinks=true,
+	       linkcolor=webdarkblue, 
+	       filecolor=webblue, 
+	       urlcolor=webdarkblue,
+	       citecolor=webgreen]{hyperref}     % pour l'utilisation des liens http,...
+   \usepackage{portland}		% pour l'utilisation de \portrait et de \landscape sur une page
+\pagestyle{fancy}
+%opening
+\title{\LARGE{CANDIDATURE A LA QUALIFICATION
+AUX FONCTIONS DE MAITRE DE CONFERENCES} \\
+	\LARGE{Section CNU: 61\up{ème}} }
+\author{\textbf{Guilaume \textsc{Lemaitre}}}
+\date{08/12/2016}
+\begin{document}
+
+\maketitle
+\thispagestyle{fancy}
+  \lhead{Guillaume \textsc{Lemaitre}}
+  \rhead{}
+  \chead{Dossier de candidature}
+  \cfoot{}
+  \vspace*{3cm}
+  \section*{Etat civil}
+ \begin{table}[H]
+ \center
+ \begin{tabular}{l l} 
+   Nom: & \textbf{Lemaitre} \\ \\ [-2ex]
+   Prénom: & \textbf{Guillaume} \\ \\ [-2ex]
+   Date et lieu de naissance: & \textbf{27 Avril 1988 à Decize (58)} \\ \\ [-2ex]
+   Nationalité: & \textbf{Française} \\ \\ [-2ex]
+   Situation de famille: & \textbf{Mari\'e sans enfant} \\ \\ [-2ex]
+   Coordonnées professionnelles & \textbf{INRIA Saclay - PARIETAL} \\
+   & \textbf{1 Rue Honoré d'Estienne d'Orves} \\
+   & \textbf{91120 Palaiseau} \\
+   & \phone \textbf{+33 7 61 10 47 82} \\
+   & \Email \textbf{guillaume.lemaitre@inria.fr} \\ \\ [-2ex]
+   Coordonnées personnelles: & \textbf{86 rue Mar\'echal Foch} \\
+   & 71200 \textbf{Le Creusot} \\
+   & \Mobilefone \textbf{+33 7 61 10 47 82} \\
+   & \Email \textbf{g.lemaitre58@gmail.com} 
+\end{tabular}
+ \end{table}
+ 
+ %Vision omnidirectionnelle $\&$ hybride, Structure-From-Motion, Suivi-visuel, Auto-calibrage, Robotique mobile
+ \section*{Résumé}
+\begin{table}[h]
+\begin{tabular}{llll}
+\multirow{}{}{Publications:}  & \textbf{Revues:}              & \textbf{5}   & 3 en 1\textsuperscript{er} auteur          \\
+                                & \textbf{Conférences}          & \textbf{14}   & 7 en auteur correspondant       \\
+                                & \textbf{Rapport technique}            & \textbf{1}   &                           \\ \\ [-2ex]
+ 
+\multirow{}{}{Enseignements:} & \textbf{Base de donn\'ees}  & \textbf{40h} & DUT GEII  \\
+                              & \textbf{Traitement du signal / Python} & \textbf{32h} & DUT MP \\
+                                & \textbf{Software engineering}  & \textbf{24h} & Master ViBOT  \\
+                                & \textbf{Introduction to image processing} & \textbf{56h} & Master ViBOT \\
+                                & \textbf{Machine learning and pattern recognition} & \textbf{32h} & Master ViBOT \\
+                                & \textbf{Medical Image Analysis} & \textbf{12h} & Master ViBOT  \\ 
+\end{tabular}
+\end{table}
+Mots-clés: Medical Image Analysis, Pattern Recognition, Machine Learning, Computer-Aided Diagnosis, Prostate Cancer
+
+            
+\end{document}
+

@@ -1,0 +1,198 @@
+\tikzset{
+  orig/.style={
+    hist 1/.style={fill=red!80!gray},
+    hist 2/.style={fill=blue!60!white},
+    hist 3/.style={fill=green!50!gray},
+    arrow group/.style={draw,color=black,very thick,latex-latex},
+    target/.style={fill=pink!60!black,draw=black,
+      line width=1pt,double distance=1pt,double=white},
+    rev text on arc/.style={
+      decorate,decoration={text along path,
+        text={##1},text align={align=center},
+        text color=black,reverse path}
+    },
+    text on arc/.style={
+      decorate,decoration={text along path,
+        text={##1},text align={align=center},
+        text color=black,
+      },
+    },
+    major tick/.style={draw=white,thick},
+    minor tick/.style={draw=white,thin,draw opacity=.5},
+    tick label/.style={font=\tiny\bfseries},
+    text=black,
+    font=\bfseries\sffamily,
+  },
+  dartstyle/.style={
+    hist 1/.style={fill=red!80!white},
+    hist 2/.style={fill=yellow!60!white},
+    hist 3/.style={fill=green!70!black},
+    arrow group/.style={draw=white,white,very thick,latex-latex},
+    target/.style={fill=black,draw=black,
+      line width=1pt,double distance=1pt,double=white},
+    rev text on arc/.style={
+      decorate,decoration={text along path,
+        text={##1},text align={align=center},
+        text color=white,reverse path}
+    },
+    text on arc/.style={
+      decorate,decoration={text along path,
+        text={##1},text align={align=center},
+        text color=white}
+    },
+    major tick/.style={draw=white,thick},
+    minor tick/.style={draw=white,thin,draw opacity=.5},
+    tick label/.style={font=\tiny\bfseries},
+    text=white,
+    font=\bfseries\sffamily,
+  },
+  clearstyle/.style={
+    hist 1/.style={fill=gray!30!white},
+    hist 2/.style={fill=gray!90!white},
+    hist 3/.style={fill=black!90!white},
+%    hist 1/.style={fill=gray!40!white},
+%    hist 2/.style={fill=gray!80!white},
+%    hist 3/.style={fill=gray!100!black},
+    arrow group/.style={draw=black,black,latex-latex},
+    target/.style={fill=white,draw=white,
+      line width=1pt,double distance=1pt,double=black},
+    rev text on arc/.style={
+      decorate,decoration={text along path,
+        text={##1},text align={align=center},
+        text color=black, reverse path}
+    },
+    text on arc/.style={
+      decorate,decoration={text along path,
+        text={##1},text align={align=center},
+        text color=black}
+    },
+    major tick/.style={draw=black,thick,draw opacity=.5},
+    minor tick/.style={draw=black,thin,draw opacity=.5},
+    tick label/.style={font=\tiny},
+    text=black,
+    font=\sffamily,
+  },
+}
+
+\def\astep{15} % step (degree) between sectors
+\def\mstep{4} % half width (degree) of each sector
+\def\min{8mm} % min distance from center
+\def\max{3cm} % max distance from center
+
+\def\mydata{%
+  Medical Imaging/{%
+    \scriptsize{Melanoma}/{0,10,80},
+    \scriptsize{MRI}/{0,40,40},%
+    \scriptsize{OCT}/{0,30,50},%
+  },%
+  NonConventional Imaging/{%
+    \scriptsize{Multispectral}/{0,30,50},%
+    \scriptsize{Polarized}/{0,30,50},%
+  },%
+  Machine Learning/{%
+    \scriptsize{Classification}/{5,20,65},%
+    \scriptsize{Unbalancing}/{5,20,50},%
+    \scriptsize{Feat. Extr.}/{5,20,65},%
+    \scriptsize{Feat. Sel.}/{5,20,65},%
+  },%
+  Computer Vision/{%
+    \scriptsize{Calibration}/{5,30,20},%
+    \scriptsize{Navigation}/{5,30,20},%
+    \scriptsize{Robotics}/{5,30,40},%
+    \scriptsize{Img. Proc.}/{5,20,65},%
+    \scriptsize{Signal Proc.}/{5,20,60},%
+  	}%  
+}
+
+\centering{
+\begin{tikzpicture}[clearstyle, scale = 0.8]
+  \tikzset{
+    declare function={
+      secttoangle(\sect)=(\sect)*\astep;
+      percenttodist(\percent)=\min+(\max-\min)/100*\percent;
+    },
+  }
+
+  \path[target]
+  circle(\max+3cm);
+
+  \def\cursectinit{-.666}
+  \foreach \curgroup/\curdata in \mydata {
+    \foreach \curlabel/\values [count=\cp] in \curdata {
+      % angle for this current label
+      \pgfmathsetmacro{\angle}{secttoangle(\cursectinit+\cp)}
+      % percent
+      \xdef\total{0}
+      % histogram
+      \foreach \val [count=\cv] in \values {
+        \pgfmathsetmacro{\nexttotal}{\total+\val}
+        \pgfmathsetmacro{\dmin}{percenttodist(\total)}
+        \pgfmathsetmacro{\dmax}{percenttodist(\nexttotal)}
+        % sector
+        \path[hist \cv=\angle] (\angle+\mstep:\dmin pt)
+        arc(\angle+\mstep:\angle-\mstep:\dmin pt) -- (\angle-\mstep:\dmax pt)
+        arc(\angle-\mstep:\angle+\mstep:\dmax pt) -- cycle;
+        % iteration
+        \xdef\total{\nexttotal}
+      }
+      % label (with autorotation)
+      \pgfmathtruncatemacro{\revlab}{and(\angle>90,\angle<270)?1:0}
+      \ifthenelse{\equal{\revlab}{1}}{ 
+        \node[rotate=180+\angle,anchor=east] at (\angle:\max) {\curlabel};
+      }{
+        \node[rotate=\angle,anchor=west] at (\angle:\max) {\curlabel};
+      }
+    }
+    % group limits
+    \pgfmathsetmacro{\newsectinit}{\cursectinit+\cp}
+    \pgfmathsetmacro{\angleinit}{secttoangle(\cursectinit)-\mstep}
+    \pgfmathsetmacro{\anglefinal}{secttoangle(\newsectinit)+\mstep}
+    % group label
+    {
+      \small\bfseries\sffamily
+      \pgfmathtruncatemacro{\anglem}{(\angleinit+\anglefinal)/2}
+      \pgfmathtruncatemacro{\revtext}{and(\anglem>0,\anglem<180)?1:0}
+      \ifthenelse{\equal{\revtext}{1}}{ 
+        \draw[rev text on arc=\curgroup] (\angleinit:\max+2.5cm)
+        arc(\angleinit:\anglefinal:\max+2.5cm);
+      }{
+        \draw[text on arc=\curgroup] (\angleinit:\max+2.5cm+.5em)
+        arc(\angleinit:\anglefinal:\max+2.5cm+.5em);
+      }
+    }
+    % group arrow
+    \path[arrow group]
+    (\angleinit:\max+2.3cm) arc(\angleinit:\anglefinal:\max+2.3cm);
+    %iteration
+    \pgfmathsetmacro{\newsectinit}{\newsectinit+1}
+    \xdef\cursectinit{\newsectinit}
+  }
+
+  % level ticks
+  \pgfmathsetmacro{\angleinit}{secttoangle(0)}
+  \pgfmathsetmacro{\anglefinal}{secttoangle(\cursectinit-1)+\mstep}
+  % major ticks with labels
+  \foreach \percent in {0,50,100}{
+    \pgfmathsetmacro{\dist}{percenttodist(\percent)}
+    % tick
+    \path[major tick] (\angleinit:\dist pt)
+    arc(\angleinit:\anglefinal:\dist pt);
+    % label
+    \node[tick label,below,rotate=secttoangle(0)]
+    at ({secttoangle(0)}:\dist pt) {\percent\%};
+  }
+  % minor ticks
+  \foreach \percent in {10,20,30,40,60,70,80,90}{
+    \pgfmathsetmacro{\dist}{percenttodist(\percent)}
+    % tick
+    \path[minor tick] (\angleinit:\dist pt)
+    arc(\angleinit:\anglefinal:\dist pt);
+  }
+
+  % legend
+  \foreach \mycat [count=\c] in {\small{Bad},\small{Mediocre},\small{Good}}{
+    \path[hist \c=0] (2.75,-.5-.5*\c) rectangle ++(.2,.2) ++(0,-.1)
+    node[right]{\mycat};
+  }
+\end{tikzpicture}
+}

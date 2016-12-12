@@ -1,0 +1,545 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{nty}
+    \entry{alsaih2016classification}{inproceedings}{}
+      \name{labelname}{10}{}{%
+        {{hash=b9d652f136f3af412d4ed3bfe8b96fb2}{Alsaih}{A\bibinitperiod}{Khaled}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=912ee0e28c6b228281831bc57e9e3e03}{Lema{\^\i}tre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=835f54701aa3150221871f902f22691f}{Vall}{V\bibinitperiod}{Joan\bibnamedelima Massich}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=cfda8b5fbe1790d3949d705f8c080269}{Rastgoo}{R\bibinitperiod}{Mojdeh}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=16bd6c852bf588640e7b137b63010b0b}{Sidib{\'e}}{S\bibinitperiod}{D{\'e}sir{\'e}}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=45aa36378e13ebc805da5438a7dc307c}{Wong}{W\bibinitperiod}{Tien\bibnamedelima Y}{T\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=3bdb9d803f390a338e66051842b49de3}{Lamoureux}{L\bibinitperiod}{Ecosse}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=ee82aa1db5372afdc255b3bacd8c8fcf}{Milea}{M\bibinitperiod}{Dan}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=039ef43b2eb3f79f4642156fc539bece}{Cheung}{C\bibinitperiod}{Carol\bibnamedelima Y}{C\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=c9eabbc2059043877c21683d70d11f1e}{M{\'e}riaudeau}{M\bibinitperiod}{Fabrice}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{10}{}{%
+        {{hash=b9d652f136f3af412d4ed3bfe8b96fb2}{Alsaih}{A\bibinitperiod}{Khaled}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=912ee0e28c6b228281831bc57e9e3e03}{Lema{\^\i}tre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=835f54701aa3150221871f902f22691f}{Vall}{V\bibinitperiod}{Joan\bibnamedelima Massich}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=cfda8b5fbe1790d3949d705f8c080269}{Rastgoo}{R\bibinitperiod}{Mojdeh}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=16bd6c852bf588640e7b137b63010b0b}{Sidib{\'e}}{S\bibinitperiod}{D{\'e}sir{\'e}}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=45aa36378e13ebc805da5438a7dc307c}{Wong}{W\bibinitperiod}{Tien\bibnamedelima Y}{T\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=3bdb9d803f390a338e66051842b49de3}{Lamoureux}{L\bibinitperiod}{Ecosse}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=ee82aa1db5372afdc255b3bacd8c8fcf}{Milea}{M\bibinitperiod}{Dan}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=039ef43b2eb3f79f4642156fc539bece}{Cheung}{C\bibinitperiod}{Carol\bibnamedelima Y}{C\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=c9eabbc2059043877c21683d70d11f1e}{M{\'e}riaudeau}{M\bibinitperiod}{Fabrice}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a974a1fc33e1d275ddf49e92dcf7d110}
+      \strng{fullhash}{a974a1fc33e1d275ddf49e92dcf7d110}
+      \field{sortinit}{A}
+      \field{labeltitle}{Classification of SD-OCT volumes with multi pyramids, LBP and HOG descriptors: application to DME detections}
+      \field{booktitle}{38th IEEE Engineering in Medicine and Biology Society (EMBC)}
+      \field{title}{Classification of SD-OCT volumes with multi pyramids, LBP and HOG descriptors: application to DME detections}
+      \field{year}{2016}
+    \endentry
+    \entry{belkacemi2016wood}{inproceedings}{}
+      \name{labelname}{9}{}{%
+        {{hash=6a7386dd6e44e8a27cd43d0b8b0f515f}{Belkacemi}{B\bibinitperiod}{Mohamed}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=fe665a7a657d3ced0de31fbd0cef5e39}{Massich}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=eecaf670e97f746cf75ba9172c19c31a}{Lemaitre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=5bf415a3cade674f87a86909afef0a8e}{Stolz}{S\bibinitperiod}{Christophe}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=c36a84f1f7b64a93681a3121a9ff1f71}{Daval}{D\bibinitperiod}{Vincent}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=2bb23dbd35d7543a75de45cba08a1c8a}{Pot}{P\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=68749c63f9898b85e9b7790090cb55bd}{Aubreton}{A\bibinitperiod}{Olivier}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=dbb96f80d8976cf4cfe23d01f384b398}{Collet}{C\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=4fdd907545458a9fb7589439c2c5f971}{Meriaudeau}{M\bibinitperiod}{Fabrice}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{9}{}{%
+        {{hash=6a7386dd6e44e8a27cd43d0b8b0f515f}{Belkacemi}{B\bibinitperiod}{Mohamed}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=fe665a7a657d3ced0de31fbd0cef5e39}{Massich}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=eecaf670e97f746cf75ba9172c19c31a}{Lemaitre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=5bf415a3cade674f87a86909afef0a8e}{Stolz}{S\bibinitperiod}{Christophe}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=c36a84f1f7b64a93681a3121a9ff1f71}{Daval}{D\bibinitperiod}{Vincent}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=2bb23dbd35d7543a75de45cba08a1c8a}{Pot}{P\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=68749c63f9898b85e9b7790090cb55bd}{Aubreton}{A\bibinitperiod}{Olivier}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=dbb96f80d8976cf4cfe23d01f384b398}{Collet}{C\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=4fdd907545458a9fb7589439c2c5f971}{Meriaudeau}{M\bibinitperiod}{Fabrice}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5039b75827465f3948e25afe9e71f6fd}
+      \strng{fullhash}{5039b75827465f3948e25afe9e71f6fd}
+      \field{sortinit}{B}
+      \field{labeltitle}{Wood fiber orientation assessment based on punctual laser beam excitation: A preliminary study}
+      \field{booktitle}{13th Quantitative Infrared Thermography Conference (QIRT)}
+      \field{title}{Wood fiber orientation assessment based on punctual laser beam excitation: A preliminary study}
+      \field{year}{2016}
+    \endentry
+    \entry{belkacemi2016combined}{inproceedings}{}
+      \name{labelname}{5}{}{%
+        {{hash=6a7386dd6e44e8a27cd43d0b8b0f515f}{Belkacemi}{B\bibinitperiod}{Mohamed}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=5bf415a3cade674f87a86909afef0a8e}{Stolz}{S\bibinitperiod}{Christophe}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=adc1ba489e7b6acb5b72ccc62e3b3953}{Mathieu}{M\bibinitperiod}{Alexandre}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=eecaf670e97f746cf75ba9172c19c31a}{Lemaitre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=68749c63f9898b85e9b7790090cb55bd}{Aubreton}{A\bibinitperiod}{Olivier}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=6a7386dd6e44e8a27cd43d0b8b0f515f}{Belkacemi}{B\bibinitperiod}{Mohamed}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=5bf415a3cade674f87a86909afef0a8e}{Stolz}{S\bibinitperiod}{Christophe}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=adc1ba489e7b6acb5b72ccc62e3b3953}{Mathieu}{M\bibinitperiod}{Alexandre}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=eecaf670e97f746cf75ba9172c19c31a}{Lemaitre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=68749c63f9898b85e9b7790090cb55bd}{Aubreton}{A\bibinitperiod}{Olivier}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4a31b1ad5c533eaa6da419bc9d7a32e5}
+      \strng{fullhash}{4a31b1ad5c533eaa6da419bc9d7a32e5}
+      \field{sortinit}{B}
+      \field{labeltitle}{A combined three-dimensional digitisation and subsurface defect detection data using active infrared thermography}
+      \field{booktitle}{13th Quantitative Infrared Thermography Conference (QIRT)}
+      \field{title}{A combined three-dimensional digitisation and subsurface defect detection data using active infrared thermography}
+      \field{year}{2016}
+    \endentry
+    \entry{belkacemi2015nondestructive}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=6a7386dd6e44e8a27cd43d0b8b0f515f}{Belkacemi}{B\bibinitperiod}{Mohamed}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=5bf415a3cade674f87a86909afef0a8e}{Stolz}{S\bibinitperiod}{Christophe}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=adc1ba489e7b6acb5b72ccc62e3b3953}{Mathieu}{M\bibinitperiod}{Alexandre}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=eecaf670e97f746cf75ba9172c19c31a}{Lemaitre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=fe665a7a657d3ced0de31fbd0cef5e39}{Massich}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=68749c63f9898b85e9b7790090cb55bd}{Aubreton}{A\bibinitperiod}{Olivier}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=6a7386dd6e44e8a27cd43d0b8b0f515f}{Belkacemi}{B\bibinitperiod}{Mohamed}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=5bf415a3cade674f87a86909afef0a8e}{Stolz}{S\bibinitperiod}{Christophe}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=adc1ba489e7b6acb5b72ccc62e3b3953}{Mathieu}{M\bibinitperiod}{Alexandre}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=eecaf670e97f746cf75ba9172c19c31a}{Lemaitre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=fe665a7a657d3ced0de31fbd0cef5e39}{Massich}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=68749c63f9898b85e9b7790090cb55bd}{Aubreton}{A\bibinitperiod}{Olivier}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{2}{%
+        {International Society for Optics}%
+        {Photonics}%
+      }
+      \strng{namehash}{e5272f4435f171534eaea4f325695edb}
+      \strng{fullhash}{e5272f4435f171534eaea4f325695edb}
+      \field{sortinit}{B}
+      \field{labeltitle}{Nondestructive testing based on scanning-from-heating approach: application to nonthrough defect detection and fiber orientation assessment}
+      \field{journaltitle}{Journal of Electronic Imaging}
+      \field{number}{6}
+      \field{title}{Nondestructive testing based on scanning-from-heating approach: application to nonthrough defect detection and fiber orientation assessment}
+      \field{volume}{24}
+      \field{year}{2015}
+      \field{pages}{061112\bibrangedash 061112}
+    \endentry
+    \entry{lemaitre2015business}{inproceedings}{}
+      \name{labelname}{5}{}{%
+        {{hash=eecaf670e97f746cf75ba9172c19c31a}{Lemaitre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=9aa2e9ff62dbbbacf184758150f9c09a}{Bikfalvi}{B\bibinitperiod}{Andrea}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ddd932b04e00c1e31aef6210d74358c7}{Llach}{L\bibinitperiod}{Josep}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=fe665a7a657d3ced0de31fbd0cef5e39}{Massich}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=b8be91e79be4ccc66d8abd7d6f75e06d}{Julian}{J\bibinitperiod}{Fernando}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=eecaf670e97f746cf75ba9172c19c31a}{Lemaitre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=9aa2e9ff62dbbbacf184758150f9c09a}{Bikfalvi}{B\bibinitperiod}{Andrea}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ddd932b04e00c1e31aef6210d74358c7}{Llach}{L\bibinitperiod}{Josep}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=fe665a7a657d3ced0de31fbd0cef5e39}{Massich}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=b8be91e79be4ccc66d8abd7d6f75e06d}{Julian}{J\bibinitperiod}{Fernando}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IATED}%
+      }
+      \strng{namehash}{fa040d966066078f2162640e8c940ebd}
+      \strng{fullhash}{fa040d966066078f2162640e8c940ebd}
+      \field{sortinit}{L}
+      \field{labeltitle}{Business Model Design for University Technology Valorisation}
+      \field{booktitle}{International Technology, Education and Development Conference (INTED2015)}
+      \field{title}{Business Model Design for University Technology Valorisation}
+      \field{year}{2015}
+    \endentry
+    \entry{lemaitre2015computer}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=eecaf670e97f746cf75ba9172c19c31a}{Lemaitre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=ed048822d7dba98512ef16b4c19c879b}{Marti}{M\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=9ffc3337c02d9b5bb25485b48823246e}{Freixenet}{F\bibinitperiod}{Jordi}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=db5255a6f51ee2e844c5132b91f7b02a}{Vilanova}{V\bibinitperiod}{Joan\bibnamedelima C.}{J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=a5efb6a4a29f3cc9a83d1b3ec9d18fde}{Walker}{W\bibinitperiod}{Paul\bibnamedelima M.}{P\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=4fdd907545458a9fb7589439c2c5f971}{Meriaudeau}{M\bibinitperiod}{Fabrice}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=eecaf670e97f746cf75ba9172c19c31a}{Lemaitre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=ed048822d7dba98512ef16b4c19c879b}{Marti}{M\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=9ffc3337c02d9b5bb25485b48823246e}{Freixenet}{F\bibinitperiod}{Jordi}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=db5255a6f51ee2e844c5132b91f7b02a}{Vilanova}{V\bibinitperiod}{Joan\bibnamedelima C.}{J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=a5efb6a4a29f3cc9a83d1b3ec9d18fde}{Walker}{W\bibinitperiod}{Paul\bibnamedelima M.}{P\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=4fdd907545458a9fb7589439c2c5f971}{Meriaudeau}{M\bibinitperiod}{Fabrice}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{f375fd2957ac72c2e481de5062ec4c78}
+      \strng{fullhash}{f375fd2957ac72c2e481de5062ec4c78}
+      \field{sortinit}{L}
+      \field{labeltitle}{Computer-Aided Detection and Diagnosis for prostate cancer based on mono and multi-parametric MRI: A Review}
+      \field{journaltitle}{Computers in Biology and Medicine}
+      \field{title}{Computer-Aided Detection and Diagnosis for prostate cancer based on mono and multi-parametric MRI: A Review}
+      \field{year}{2015}
+    \endentry
+    \entry{lemaitre2015boosting}{inproceedings}{}
+      \name{labelname}{8}{}{%
+        {{hash=eecaf670e97f746cf75ba9172c19c31a}{Lemaitre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=fe665a7a657d3ced0de31fbd0cef5e39}{Massich}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=ed048822d7dba98512ef16b4c19c879b}{Marti}{M\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=9ffc3337c02d9b5bb25485b48823246e}{Freixenet}{F\bibinitperiod}{Jordi}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=db5255a6f51ee2e844c5132b91f7b02a}{Vilanova}{V\bibinitperiod}{Joan\bibnamedelima C.}{J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=a5efb6a4a29f3cc9a83d1b3ec9d18fde}{Walker}{W\bibinitperiod}{Paul\bibnamedelima M.}{P\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=7ae7cb849efa1b957389881c125a129f}{Sidibe}{S\bibinitperiod}{Desire}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=4fdd907545458a9fb7589439c2c5f971}{Meriaudeau}{M\bibinitperiod}{Fabrice}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{8}{}{%
+        {{hash=eecaf670e97f746cf75ba9172c19c31a}{Lemaitre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=fe665a7a657d3ced0de31fbd0cef5e39}{Massich}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=ed048822d7dba98512ef16b4c19c879b}{Marti}{M\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=9ffc3337c02d9b5bb25485b48823246e}{Freixenet}{F\bibinitperiod}{Jordi}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=db5255a6f51ee2e844c5132b91f7b02a}{Vilanova}{V\bibinitperiod}{Joan\bibnamedelima C.}{J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=a5efb6a4a29f3cc9a83d1b3ec9d18fde}{Walker}{W\bibinitperiod}{Paul\bibnamedelima M.}{P\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=7ae7cb849efa1b957389881c125a129f}{Sidibe}{S\bibinitperiod}{Desire}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=4fdd907545458a9fb7589439c2c5f971}{Meriaudeau}{M\bibinitperiod}{Fabrice}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {SPIE}%
+      }
+      \strng{namehash}{30727ee960df5bd1250475476d95065c}
+      \strng{fullhash}{30727ee960df5bd1250475476d95065c}
+      \field{sortinit}{L}
+      \field{labeltitle}{A Boosting Approach for Prostate Cancer Detection using Multi-parametric MRI}
+      \field{booktitle}{International Conference on Quality Control and Artificial Vision (QCAV2015)}
+      \field{title}{A Boosting Approach for Prostate Cancer Detection using Multi-parametric MRI}
+      \field{year}{2015}
+    \endentry
+    \entry{lemaitre2016imbalanced}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=eecaf670e97f746cf75ba9172c19c31a}{Lemaitre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=f945a9261b3f3da4e3890d52a239ebf9}{Nogueira}{N\bibinitperiod}{Fernando}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=7ddedb8c2ed78edb7c804334b89b28d0}{Aridas}{A\bibinitperiod}{Christos\bibnamedelima K}{C\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=eecaf670e97f746cf75ba9172c19c31a}{Lemaitre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=f945a9261b3f3da4e3890d52a239ebf9}{Nogueira}{N\bibinitperiod}{Fernando}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=7ddedb8c2ed78edb7c804334b89b28d0}{Aridas}{A\bibinitperiod}{Christos\bibnamedelima K}{C\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{513d18aa0d8b4dc6976d730c2340a303}
+      \strng{fullhash}{513d18aa0d8b4dc6976d730c2340a303}
+      \field{sortinit}{L}
+      \field{labeltitle}{Imbalanced-learn: A Python Toolbox to Tackle the Curse of Imbalanced Datasets in Machine Learning}
+      \field{journaltitle}{Journal of Machine Learning Research}
+      \field{title}{Imbalanced-learn: A Python Toolbox to Tackle the Curse of Imbalanced Datasets in Machine Learning}
+      \field{year}{2017}
+    \endentry
+    \entry{lemaitre2016normalization}{inproceedings}{}
+      \name{labelname}{9}{}{%
+        {{hash=eecaf670e97f746cf75ba9172c19c31a}{Lemaitre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=cfda8b5fbe1790d3949d705f8c080269}{Rastgoo}{R\bibinitperiod}{Mojdeh}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=fe665a7a657d3ced0de31fbd0cef5e39}{Massich}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=332d9a5922774383eb72842030af3627}{Vilanova}{V\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17cf2550587980e35d0d52f474b02afc}{Walker}{W\bibinitperiod}{Paul}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=9ffc3337c02d9b5bb25485b48823246e}{Freixenet}{F\bibinitperiod}{Jordi}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=894fcc4d3cc2ab9e66ad17188d8cfddb}{Meyer-Baese}{M\bibinithyphendelim B\bibinitperiod}{Anke}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=4fdd907545458a9fb7589439c2c5f971}{Meriaudeau}{M\bibinitperiod}{Fabrice}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=ed048822d7dba98512ef16b4c19c879b}{Marti}{M\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{9}{}{%
+        {{hash=eecaf670e97f746cf75ba9172c19c31a}{Lemaitre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=cfda8b5fbe1790d3949d705f8c080269}{Rastgoo}{R\bibinitperiod}{Mojdeh}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=fe665a7a657d3ced0de31fbd0cef5e39}{Massich}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=332d9a5922774383eb72842030af3627}{Vilanova}{V\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17cf2550587980e35d0d52f474b02afc}{Walker}{W\bibinitperiod}{Paul}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=9ffc3337c02d9b5bb25485b48823246e}{Freixenet}{F\bibinitperiod}{Jordi}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=894fcc4d3cc2ab9e66ad17188d8cfddb}{Meyer-Baese}{M\bibinithyphendelim B\bibinitperiod}{Anke}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=4fdd907545458a9fb7589439c2c5f971}{Meriaudeau}{M\bibinitperiod}{Fabrice}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=ed048822d7dba98512ef16b4c19c879b}{Marti}{M\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {SPIE}%
+      }
+      \strng{namehash}{a8519025185d0557b38847926101a0aa}
+      \strng{fullhash}{a8519025185d0557b38847926101a0aa}
+      \field{sortinit}{L}
+      \field{labeltitle}{Normalization of T2W-MRI prostate images using Rician a priori}
+      \field{booktitle}{SPIE Medical Imaging}
+      \field{title}{Normalization of T2W-MRI prostate images using Rician a priori}
+      \field{year}{2016}
+    \endentry
+    \entry{lemaitre2016classification}{article}{}
+      \name{labelname}{9}{}{%
+        {{hash=648c8db32632e224884803db920f042d}{Lema{\i}tre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=cfda8b5fbe1790d3949d705f8c080269}{Rastgoo}{R\bibinitperiod}{Mojdeh}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=fe665a7a657d3ced0de31fbd0cef5e39}{Massich}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=039ef43b2eb3f79f4642156fc539bece}{Cheung}{C\bibinitperiod}{Carol\bibnamedelima Y}{C\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=45aa36378e13ebc805da5438a7dc307c}{Wong}{W\bibinitperiod}{Tien\bibnamedelima Y}{T\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=3bdb9d803f390a338e66051842b49de3}{Lamoureux}{L\bibinitperiod}{Ecosse}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=ee82aa1db5372afdc255b3bacd8c8fcf}{Milea}{M\bibinitperiod}{Dan}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=c9eabbc2059043877c21683d70d11f1e}{M{\'e}riaudeau}{M\bibinitperiod}{Fabrice}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=16bd6c852bf588640e7b137b63010b0b}{Sidib{\'e}}{S\bibinitperiod}{D{\'e}sir{\'e}}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{9}{}{%
+        {{hash=648c8db32632e224884803db920f042d}{Lema{\i}tre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=cfda8b5fbe1790d3949d705f8c080269}{Rastgoo}{R\bibinitperiod}{Mojdeh}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=fe665a7a657d3ced0de31fbd0cef5e39}{Massich}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=039ef43b2eb3f79f4642156fc539bece}{Cheung}{C\bibinitperiod}{Carol\bibnamedelima Y}{C\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=45aa36378e13ebc805da5438a7dc307c}{Wong}{W\bibinitperiod}{Tien\bibnamedelima Y}{T\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=3bdb9d803f390a338e66051842b49de3}{Lamoureux}{L\bibinitperiod}{Ecosse}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=ee82aa1db5372afdc255b3bacd8c8fcf}{Milea}{M\bibinitperiod}{Dan}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=c9eabbc2059043877c21683d70d11f1e}{M{\'e}riaudeau}{M\bibinitperiod}{Fabrice}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=16bd6c852bf588640e7b137b63010b0b}{Sidib{\'e}}{S\bibinitperiod}{D{\'e}sir{\'e}}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{315cc56554ec83b48a354b0168a59b35}
+      \strng{fullhash}{315cc56554ec83b48a354b0168a59b35}
+      \field{sortinit}{L}
+      \field{labeltitle}{Classification of SD-OCT Volumes using Local Binary Patterns: Experimental Validation for DME Detection}
+      \field{journaltitle}{Journal of Ophthalmology}
+      \field{title}{Classification of SD-OCT Volumes using Local Binary Patterns: Experimental Validation for DME Detection}
+      \field{volume}{2016}
+      \field{year}{2016}
+    \endentry
+    \entry{lemaitre2015classification}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=912ee0e28c6b228281831bc57e9e3e03}{Lema{\^\i}tre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=cfda8b5fbe1790d3949d705f8c080269}{Rastgoo}{R\bibinitperiod}{Mojdeh}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=fe665a7a657d3ced0de31fbd0cef5e39}{Massich}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=415f361c20566c0bdf0d023a93714d76}{Sankar}{S\bibinitperiod}{Shrinivasan}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=c9eabbc2059043877c21683d70d11f1e}{M{\'e}riaudeau}{M\bibinitperiod}{Fabrice}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=16bd6c852bf588640e7b137b63010b0b}{Sidib{\'e}}{S\bibinitperiod}{D{\'e}sir{\'e}}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=912ee0e28c6b228281831bc57e9e3e03}{Lema{\^\i}tre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=cfda8b5fbe1790d3949d705f8c080269}{Rastgoo}{R\bibinitperiod}{Mojdeh}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=fe665a7a657d3ced0de31fbd0cef5e39}{Massich}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=415f361c20566c0bdf0d023a93714d76}{Sankar}{S\bibinitperiod}{Shrinivasan}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=c9eabbc2059043877c21683d70d11f1e}{M{\'e}riaudeau}{M\bibinitperiod}{Fabrice}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=16bd6c852bf588640e7b137b63010b0b}{Sidib{\'e}}{S\bibinitperiod}{D{\'e}sir{\'e}}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5dc114f477370da98360bb1a83063f79}
+      \strng{fullhash}{5dc114f477370da98360bb1a83063f79}
+      \field{sortinit}{L}
+      \field{labeltitle}{Classification of SD-OCT Volumes with LBP: Application to DME Detection}
+      \field{title}{Classification of SD-OCT Volumes with LBP: Application to DME Detection}
+      \field{year}{2015}
+    \endentry
+    \entry{massich2015optimization}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=fe665a7a657d3ced0de31fbd0cef5e39}{Massich}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=eecaf670e97f746cf75ba9172c19c31a}{Lemaitre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=8ca521cb3d631d66e11fb0639699753d}{Marti}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=4fdd907545458a9fb7589439c2c5f971}{Meriaudeau}{M\bibinitperiod}{Fabrice}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=fe665a7a657d3ced0de31fbd0cef5e39}{Massich}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=eecaf670e97f746cf75ba9172c19c31a}{Lemaitre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=8ca521cb3d631d66e11fb0639699753d}{Marti}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=4fdd907545458a9fb7589439c2c5f971}{Meriaudeau}{M\bibinitperiod}{Fabrice}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f4ace6a71bc92e6a1a5d89e84a7f2af1}
+      \strng{fullhash}{f4ace6a71bc92e6a1a5d89e84a7f2af1}
+      \field{sortinit}{M}
+      \field{labeltitle}{An Optimization Approach to Segment Breast Lesions in Ultra-Sound Images using Clinically Validated Visual Cues}
+      \field{booktitle}{Breast Image Analysis Workshop (BIA), Medical Image Computing and Computer Assisted Interventions (MICCAI) 2015}
+      \field{title}{An Optimization Approach to Segment Breast Lesions in Ultra-Sound Images using Clinically Validated Visual Cues}
+      \field{year}{2015}
+    \endentry
+    \entry{massich2015breast}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=fe665a7a657d3ced0de31fbd0cef5e39}{Massich}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=912ee0e28c6b228281831bc57e9e3e03}{Lema{\^\i}tre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=e14550b7db8a03e2bc267d159763715f}{Mart{\'\i}}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=c9eabbc2059043877c21683d70d11f1e}{M{\'e}riaudeau}{M\bibinitperiod}{Fabrice}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=fe665a7a657d3ced0de31fbd0cef5e39}{Massich}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=912ee0e28c6b228281831bc57e9e3e03}{Lema{\^\i}tre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=e14550b7db8a03e2bc267d159763715f}{Mart{\'\i}}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=c9eabbc2059043877c21683d70d11f1e}{M{\'e}riaudeau}{M\bibinitperiod}{Fabrice}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{2}{%
+        {International Society for Optics}%
+        {Photonics}%
+      }
+      \strng{namehash}{9d56684f7a5ce46ca8d9ea943338f181}
+      \strng{fullhash}{9d56684f7a5ce46ca8d9ea943338f181}
+      \field{sortinit}{M}
+      \field{labeltitle}{Breast ultrasound image segmentation: an optimization approach based on super-pixels and high-level descriptors}
+      \field{booktitle}{The International Conference on Quality Control by Artificial Vision 2015}
+      \field{title}{Breast ultrasound image segmentation: an optimization approach based on super-pixels and high-level descriptors}
+      \field{year}{2015}
+      \field{pages}{95340C\bibrangedash 95340C}
+    \endentry
+    \entry{massich2016classifying}{inproceedings}{}
+      \name{labelname}{7}{}{%
+        {{hash=fe665a7a657d3ced0de31fbd0cef5e39}{Massich}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=cfda8b5fbe1790d3949d705f8c080269}{Rastgoo}{R\bibinitperiod}{Mojdeh}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=912ee0e28c6b228281831bc57e9e3e03}{Lema{\^\i}tre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=7a08461a38c26cc50e8d031a1a43a781}{Cheung}{C\bibinitperiod}{Carol}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=efa96631b66dd43474503c7d9eaaf5aa}{Wong}{W\bibinitperiod}{Tien}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=16bd6c852bf588640e7b137b63010b0b}{Sidib{\'e}}{S\bibinitperiod}{D{\'e}sir{\'e}}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=c9eabbc2059043877c21683d70d11f1e}{M{\'e}riaudeau}{M\bibinitperiod}{Fabrice}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=fe665a7a657d3ced0de31fbd0cef5e39}{Massich}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=cfda8b5fbe1790d3949d705f8c080269}{Rastgoo}{R\bibinitperiod}{Mojdeh}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=912ee0e28c6b228281831bc57e9e3e03}{Lema{\^\i}tre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=7a08461a38c26cc50e8d031a1a43a781}{Cheung}{C\bibinitperiod}{Carol}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=efa96631b66dd43474503c7d9eaaf5aa}{Wong}{W\bibinitperiod}{Tien}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=16bd6c852bf588640e7b137b63010b0b}{Sidib{\'e}}{S\bibinitperiod}{D{\'e}sir{\'e}}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=c9eabbc2059043877c21683d70d11f1e}{M{\'e}riaudeau}{M\bibinitperiod}{Fabrice}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fb1f4c0bda79e6bd6ec5baab8517e681}
+      \strng{fullhash}{fb1f4c0bda79e6bd6ec5baab8517e681}
+      \field{sortinit}{M}
+      \field{labeltitle}{Classifying DME vs Normal SD-OCT volumes: A review}
+      \field{booktitle}{23rd International Conference on Pattern Recognition}
+      \field{title}{Classifying DME vs Normal SD-OCT volumes: A review}
+      \field{year}{2016}
+    \endentry
+    \entry{pampouchidou2016video}{inproceedings}{}
+      \name{labelname}{7}{}{%
+        {{hash=4d31dc0fec84f33761cb7e7e64409309}{Pampouchidou}{P\bibinitperiod}{Anastasia}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=2049a1d8ace0b5bcd772689a791e314a}{Marias}{M\bibinitperiod}{Kostas}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=b23db64c58d2c165b4649bf2c88482e5}{Tsiknakis}{T\bibinitperiod}{Manolis}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=c79466620f6b8ac0990180385217cf49}{Simos}{S\bibinitperiod}{Panagiotis}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=bac6a7a5d8c835c2ebe5288a6fe722b4}{Yang}{Y\bibinitperiod}{Fan}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=912ee0e28c6b228281831bc57e9e3e03}{Lema{\^\i}tre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=4fdd907545458a9fb7589439c2c5f971}{Meriaudeau}{M\bibinitperiod}{Fabrice}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=4d31dc0fec84f33761cb7e7e64409309}{Pampouchidou}{P\bibinitperiod}{Anastasia}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=2049a1d8ace0b5bcd772689a791e314a}{Marias}{M\bibinitperiod}{Kostas}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=b23db64c58d2c165b4649bf2c88482e5}{Tsiknakis}{T\bibinitperiod}{Manolis}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=c79466620f6b8ac0990180385217cf49}{Simos}{S\bibinitperiod}{Panagiotis}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=bac6a7a5d8c835c2ebe5288a6fe722b4}{Yang}{Y\bibinitperiod}{Fan}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=912ee0e28c6b228281831bc57e9e3e03}{Lema{\^\i}tre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=4fdd907545458a9fb7589439c2c5f971}{Meriaudeau}{M\bibinitperiod}{Fabrice}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{7ea7694b1e703607a593094dbeebd82a}
+      \strng{fullhash}{7ea7694b1e703607a593094dbeebd82a}
+      \field{sortinit}{P}
+      \field{labeltitle}{Video-based depression detection using local Curvelet binary patterns in pairwise orthogonal planes}
+      \field{booktitle}{Engineering in Medicine and Biology Society (EMBC), 2016 IEEE 38th Annual International Conference of the}
+      \field{title}{Video-based depression detection using local Curvelet binary patterns in pairwise orthogonal planes}
+      \field{year}{2016}
+      \field{pages}{3835\bibrangedash 3838}
+    \endentry
+    \entry{rastgo2016classification}{inproceedings}{}
+      \name{labelname}{8}{}{%
+        {{hash=f1176e882079be4c3b8a6dfb3ff84d6d}{Rastgo}{R\bibinitperiod}{Mojdeh}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=eecaf670e97f746cf75ba9172c19c31a}{Lemaitre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=ab50f94eb6eec99ba00102e60765c87d}{Morel}{M\bibinitperiod}{Olivier}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=fe665a7a657d3ced0de31fbd0cef5e39}{Massich}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=a0f78a3a52ae9100045456d415eaa324}{Garcia}{G\bibinitperiod}{Rafael}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=4fdd907545458a9fb7589439c2c5f971}{Meriaudeau}{M\bibinitperiod}{Fabrice}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=1bfe5072e77a4c4cd376191be848453f}{Marzani}{M\bibinitperiod}{Franck}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=16bd6c852bf588640e7b137b63010b0b}{Sidib{\'e}}{S\bibinitperiod}{D{\'e}sir{\'e}}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{8}{}{%
+        {{hash=f1176e882079be4c3b8a6dfb3ff84d6d}{Rastgo}{R\bibinitperiod}{Mojdeh}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=eecaf670e97f746cf75ba9172c19c31a}{Lemaitre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=ab50f94eb6eec99ba00102e60765c87d}{Morel}{M\bibinitperiod}{Olivier}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=fe665a7a657d3ced0de31fbd0cef5e39}{Massich}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=a0f78a3a52ae9100045456d415eaa324}{Garcia}{G\bibinitperiod}{Rafael}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=4fdd907545458a9fb7589439c2c5f971}{Meriaudeau}{M\bibinitperiod}{Fabrice}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=1bfe5072e77a4c4cd376191be848453f}{Marzani}{M\bibinitperiod}{Franck}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=16bd6c852bf588640e7b137b63010b0b}{Sidib{\'e}}{S\bibinitperiod}{D{\'e}sir{\'e}}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{2}{%
+        {International Society for Optics}%
+        {Photonics}%
+      }
+      \strng{namehash}{755ac46dcb130bbbff7f8658d9288265}
+      \strng{fullhash}{755ac46dcb130bbbff7f8658d9288265}
+      \field{sortinit}{R}
+      \field{labeltitle}{Classification of melanoma lesions using sparse coded features and random forests}
+      \field{booktitle}{SPIE Medical Imaging}
+      \field{title}{Classification of melanoma lesions using sparse coded features and random forests}
+      \field{year}{2016}
+      \field{pages}{97850C\bibrangedash 97850C}
+    \endentry
+    \entry{rastgoo2016tackling}{inproceedings}{}
+      \name{labelname}{7}{}{%
+        {{hash=cfda8b5fbe1790d3949d705f8c080269}{Rastgoo}{R\bibinitperiod}{Mojdeh}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=eecaf670e97f746cf75ba9172c19c31a}{Lemaitre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=fe665a7a657d3ced0de31fbd0cef5e39}{Massich}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=ab50f94eb6eec99ba00102e60765c87d}{Morel}{M\bibinitperiod}{Olivier}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=1bfe5072e77a4c4cd376191be848453f}{Marzani}{M\bibinitperiod}{Franck}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=a0f78a3a52ae9100045456d415eaa324}{Garcia}{G\bibinitperiod}{Rafael}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=4fdd907545458a9fb7589439c2c5f971}{Meriaudeau}{M\bibinitperiod}{Fabrice}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=cfda8b5fbe1790d3949d705f8c080269}{Rastgoo}{R\bibinitperiod}{Mojdeh}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=eecaf670e97f746cf75ba9172c19c31a}{Lemaitre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=fe665a7a657d3ced0de31fbd0cef5e39}{Massich}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=ab50f94eb6eec99ba00102e60765c87d}{Morel}{M\bibinitperiod}{Olivier}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=1bfe5072e77a4c4cd376191be848453f}{Marzani}{M\bibinitperiod}{Franck}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=a0f78a3a52ae9100045456d415eaa324}{Garcia}{G\bibinitperiod}{Rafael}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=4fdd907545458a9fb7589439c2c5f971}{Meriaudeau}{M\bibinitperiod}{Fabrice}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5c725758665867962a382e4c23de944d}
+      \strng{fullhash}{5c725758665867962a382e4c23de944d}
+      \field{sortinit}{R}
+      \field{labeltitle}{Tackling the Problem of Data Imbalancing for Melanoma Classification}
+      \field{booktitle}{Bioimaging}
+      \field{title}{Tackling the Problem of Data Imbalancing for Melanoma Classification}
+      \field{year}{2016}
+    \endentry
+    \entry{sidibe2017anomaly}{article}{}
+      \true{morelabelname}
+      \name{labelname}{10}{}{%
+        {{hash=16bd6c852bf588640e7b137b63010b0b}{Sidib{\'e}}{S\bibinitperiod}{D{\'e}sir{\'e}}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=415f361c20566c0bdf0d023a93714d76}{Sankar}{S\bibinitperiod}{Shrinivasan}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=912ee0e28c6b228281831bc57e9e3e03}{Lema{\^\i}tre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=cfda8b5fbe1790d3949d705f8c080269}{Rastgoo}{R\bibinitperiod}{Mojdeh}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=fe665a7a657d3ced0de31fbd0cef5e39}{Massich}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=039ef43b2eb3f79f4642156fc539bece}{Cheung}{C\bibinitperiod}{Carol\bibnamedelima Y}{C\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=ff748e39ef6ce3b68842fd0b63fb3043}{Tan}{T\bibinitperiod}{Gavin\bibnamedelima SW}{G\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=ee82aa1db5372afdc255b3bacd8c8fcf}{Milea}{M\bibinitperiod}{Dan}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=3bdb9d803f390a338e66051842b49de3}{Lamoureux}{L\bibinitperiod}{Ecosse}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=45aa36378e13ebc805da5438a7dc307c}{Wong}{W\bibinitperiod}{Tien\bibnamedelima Y}{T\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{10}{}{%
+        {{hash=16bd6c852bf588640e7b137b63010b0b}{Sidib{\'e}}{S\bibinitperiod}{D{\'e}sir{\'e}}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=415f361c20566c0bdf0d023a93714d76}{Sankar}{S\bibinitperiod}{Shrinivasan}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=912ee0e28c6b228281831bc57e9e3e03}{Lema{\^\i}tre}{L\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=cfda8b5fbe1790d3949d705f8c080269}{Rastgoo}{R\bibinitperiod}{Mojdeh}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=fe665a7a657d3ced0de31fbd0cef5e39}{Massich}{M\bibinitperiod}{Joan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=039ef43b2eb3f79f4642156fc539bece}{Cheung}{C\bibinitperiod}{Carol\bibnamedelima Y}{C\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=ff748e39ef6ce3b68842fd0b63fb3043}{Tan}{T\bibinitperiod}{Gavin\bibnamedelima SW}{G\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=ee82aa1db5372afdc255b3bacd8c8fcf}{Milea}{M\bibinitperiod}{Dan}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=3bdb9d803f390a338e66051842b49de3}{Lamoureux}{L\bibinitperiod}{Ecosse}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=45aa36378e13ebc805da5438a7dc307c}{Wong}{W\bibinitperiod}{Tien\bibnamedelima Y}{T\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{ab05c6e9c2329059c33e8b76a3d05d4b}
+      \strng{fullhash}{ab05c6e9c2329059c33e8b76a3d05d4b}
+      \field{sortinit}{S}
+      \field{labeltitle}{An anomaly detection approach for the identification of DME patients using spectral domain optical coherence tomography images}
+      \field{journaltitle}{Computer Methods and Programs in Biomedicine}
+      \field{title}{An anomaly detection approach for the identification of DME patients using spectral domain optical coherence tomography images}
+      \field{volume}{139}
+      \field{year}{2017}
+      \field{pages}{109\bibrangedash 117}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
