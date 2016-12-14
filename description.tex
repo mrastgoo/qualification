@@ -76,13 +76,13 @@ enseignement.
                                            &                                            CM
                                           & TD & TP           \\ \midrule
       \multirow{3}{*}{2016/2017} & Digital signal processing & Master ViBOT, MAIA, MsCV 1\textsuperscript{ère} année & & & 42h \\
-      & Traitement du signal & Introduction to image processing 1\textsuperscript{ème} année & & & 36h\\
+      & Image processing & Master ViBOT, MAIA, MsCV 1\textsuperscript{ème} année & & 6h & 30h\\
       & Computer Aided Design I & Lisance BsCV 1\textsuperscript{ère} & & & 18h \\ \cmidrule(lr){1-6}
       2013/2014 & Medical image analysis & Master ViBOT 1\textsuperscript{ème} année & & 10h & 16h \\ \cmidrule(lr){1-6}
       2012/2013 & Medical image analysis & Master ViBOT 1\textsuperscript{ème} année & & 10h & 16h \\ 
 
       \midrule
-      \textbf{Total} & & &  & \textbf{20h} & \textbf{128h} \\
+      \textbf{Total} & & &  & \textbf{26h} & \textbf{122h} \\
       \bottomrule
     \end{tabular}}
   \label{tab:enseignement}
@@ -90,58 +90,54 @@ enseignement.
 
 \subsection{Détails des enseignements}\label{sec:details}
 
-%% \begin{description}
-%% \item[Bases de données] Cet enseignement a eu pour but d'introduire les
-%%   bases de données aux étudiants de 1\textsuperscript{ère}
-%%   année de génie électrique et informatique industrielle (GEII). Dans un
-%%   premier temps, l'introduction aux notions élémentaires
-%%   (relations, normes, etc.) a été
-%%   réalisée en utilisant Microsoft Access. Par la suite, les sessions
-%%   plus appronfondies ont mis l'accent sur le language SQL afin de
-%%   perfectioner les notions introduites précédemments. Etant en charge,
-%%   de ce module, j'ai eu la liberté et l'opportunité de développer les
-%%   différents supports pédagogiques.
-%% \item[C++] Cet enseignement a présenté aux étudiants de GEII, le
-%%   concept de la programmation orientée objet (POO) par le biais du language
-%%   C++. Les principes de POO ont été abordées en utilisant les outils
-%%   Qt.
-%% \item[Traitement du signal] Cet enseignement a eu pour but
-%%   d'introduire des notions de traitement du signal numérique à des étudiants de
-%%   mesure physique (MP). Donc les concepts de filtres, d'analyse
-%%   fréquentielle parmi d'autres ont été abordés en utilisant le
-%%   language de programmation Python.
-%% \item[Machine learning and pattern recognition] J'ai été en charge de
-%%   développer une série de TPs pour des étudiants du Master Erasmus Mundus
-%%   Vision et robotique (Vibot) présentant les concepts de bases du machine learning et
-%%   pattern recognition. Ces TPs ont été mis en oeuvre en utilisant
-%%   Python et l'utilisation de notebook. Nous nous sommes intéressés
-%%   principalement aux différentes méthodes formant la chaine de
-%%   classification : normalisation, extraction et sélection de caractéristiques, réduction des dimensions
-%%   et les différentes méthodes de classification.
-%% \item[Software engineering] Pour ces même étudiants de master Vibot,
-%%   j'ai eu l'occasion de développer des enseignements liés au génie de
-%%   l'application. J'ai peu introduire les concepts de POO ainsi que
-%%   l'utilisation des librairies standard de C++. De plus, l'utilisation
-%%   d'outils de développement collaboratif, de controle de versions,
-%%   d'intégration continue (git, GitHub, Travis, CMake, GTest) ont été
-%%   présentés et utilisés.
-%% \item[Introduction to image processing] J'ai été en charge de
-%%   l'enseignement d'un module d'introduction aux traitements de l'image
-%%   à des étudiants du master Vibot. J'ai eu l'occasion d'effectuer des
-%%   cours magistraux ainsi que des TDs et TPs. Les concepts du
-%%   traitement de l'image ont été introduit en utilisant le language
-%%   Python et en utilisant et analysant la toolbox scikit-image.
-%% \end{description}
+\begin{description}
+\item[Image processing] The aim of this cours was to introduce the basics of image processing to the first year ViBOT, MAIA and MsCV students. 
+In the TD and TP dedicated to this cours, the image enhancement, histogram equalization, thresholding, spatial and frequency filtering, morphological operations and finally image segmentations were covered. 
+The practical sessions of the course were designed in Python language.
+In addition students learned how to use git and github to submit their assignments and coordinate their projects. 
+
+The TD and TP sessions were created in such a way to ensure entractive session and discoussions with the students.
+The students were evaluated based on their progress, attendance and submitted materials. 
+
+\item[Digital signal processing] is module for the first year ViBOT, MAIA and MsCV master program.
+This course covers the review of analog signals, discrete time signals, Fast Fourier Transofrm, linear systems, filtering and finally linear systems for discrete time signals. 
+I was in charge of the practical sessions (TP), were we covered basics properties of the signal, linear systems, convolution, correlation, Discrete Fourier Transform, and recursive filtering. 
+The TPs were designed in both Matlan and Python language and the students had the option to choose which language they prefer to work with. 
+The sessions were designed such that besides the theory and theoretical implementation, the student become familiar with the application of the covered area as well. 
+
+The created sessions ensure entractive and discoussion among the students and myself as well. 
+The students submitted their assignments thourgh git and github and were evaluated based on their progress, attendance and their submissions. 
+
+   
+\item[Computer aided design I - Maxima] The aim of this course is to introduce the necessary tools which allow to test and produce mathematical designs. 
+Beside numerical analysis, this cours introduces Matlab and maxima to the students, which can be used to design numerical and mathematial systems. 
+  
+Maxima introduction was covered in 18h TP.
+Basics of Maxima as well as function analysis, plotting, linear algebra and Fourier Series were covered. 
+To ensure the understanding and application of the covered topics, seveal case studies were included in the practical sessions.
+
+The students were evaluated based on their attendance, progress in the lab and their marks in the final exam.
+The final exam evaluated the maxima skills and ability to understand and interpret mathematical problems. 
+
+\item[Medical image analysis] is a course for the first year, second semester ViBOT master students. 
+This cours is taught in Universitat de Girona. 
+The course covers image processing and screening techniques specially used in the filed of medical imaing. 
+The TP and TD of this course cover registration, enhancement and segmentation of medical images using matlab, ITK, and MevisLab. 
+Variety of medical images, such as prostate T2W-MRI dicom, breast Ultrasound, and melanoma dermoscopic images were used for the practical session. 
+
+The student were evaluated based on their attendance and submitted assignments. 
+ 
+\end{description}
 
 
-\subsection{Supervision de projet}
+%% \subsection{Supervision de projet}
 
-Durant ma thèse, j'ai également supérvisé des étudiants de master
-Vibot pendant des internships et leur stage de fin d'études. J'ai donc
-eu l'occasion d'encadrer trois étudiants lors d'un internship d'un
-mois. J'ai également encadré un étudiant sur des travaux liés à notre
-thématique de recherche, publisant ainsi la conférence suivante :
-Alsaih, Khaled, et al. "Classification of SD-OCT volumes with multi pyramids, LBP and HOG descriptors: application to DME detections." 38th IEEE Engineering in Medicine and Biology Society (EMBC). 2016.
+%% Durant ma thèse, j'ai également supérvisé des étudiants de master
+%% Vibot pendant des internships et leur stage de fin d'études. J'ai donc
+%% eu l'occasion d'encadrer trois étudiants lors d'un internship d'un
+%% mois. J'ai également encadré un étudiant sur des travaux liés à notre
+%% thématique de recherche, publisant ainsi la conférence suivante :
+%% Alsaih, Khaled, et al. "Classification of SD-OCT volumes with multi pyramids, LBP and HOG descriptors: application to DME detections." 38th IEEE Engineering in Medicine and Biology Society (EMBC). 2016.
 
 %% \subsection{Responsabilité d'unité d'enseignement}
 
@@ -153,6 +149,67 @@ Alsaih, Khaled, et al. "Classification of SD-OCT volumes with multi pyramids, LB
   \begin{center}
 \underline{\hspace{8cm}}
 \end{center}
+
+\subsection{Doctorat}
+\begin{itemize}
+\item \textbf{Aout 2012 à Juin 2016:}\\
+\textbf{Doctorat} de l'Université de Bourgogne au laboratoire Le2i (Laboratoire d'Electronique, Informatique et Image) - \emph{UMR CNRS 6306, au Creusot(71)} et de l'Universitat de Girona au Institut VICOROB (Computer Vision and Robotics Group) - \emph{Escola politecnica Superior (Campus Montilivi)}.
+
+\begin{itemize}
+%\item Discipline : \textbf{Instrumentation et Informatique de l'Image}
+\item Titre : "\textbf{An Approach to Melanoma Classification Exploiting Polarization Information}"
+\item Soutenue le : 13 juin 2016
+\item mention : Très Honorable
+\item Financements :  Gouvernement autonome de Catalogne (FI grant)
+\item Directeur de thèse : \textbf{Franck Marzani}, Professeur à l'Université de Bourgogne
+\item Codirecteur de thèse : \textbf{Rafael Garcia}, Maitre de conférence à l'Universitat de Girona
+\item Co-encadrant de thèse : \textbf{Olivier Morel}, Maitre de conférence à l'Université de Bourgogne
+
+\item Jury de thèse :
+\end{itemize}
+\begin{table}[h]
+\centering
+\resizebox{0.9\textwidth}{!}{
+\begin{tabular}{lllll}
+\toprule
+Josep Malvehy     & Professeur             & Clinique d'hopital de barcelone         & Examinateur        & -  \\ \hline
+Francois Goudail  & Professeur             & Institut d'Optique Graduate School            & Rapporteur         & - \\ \hline
+Jordi Vitria      & Professeur             & Universit\'e de Barcelona                     & Rapporteur         & - \\ \hline
+Franck Marzani    & Professeur             & Université de Bourgogne (Le2i)                & Directeur de thèse & CNU 61 \\ \hline
+Rafael Garcia     & Maitre de conférence   & Universitat de Girona (Vicorob)               & Co-directeur       & - \\ \hline
+Olivier Morel     & Maitre de conférence   & Université de Bourgogne (Le2i)                & Co-encadrant       & CNU 61 \\ 
+\bottomrule
+\end{tabular}}
+\end{table}
+\end{itemize}
+
+
+
+%% \cventry{2012 - 2016}{Co-joined PhD candidate}{Universitat de Girona,Girona (Spain), Universit\'e de Bourgogne, Le Creusot (France)}{}{}{}
+%% \cvline{Supervisors}{Dr. Franck Marzani, Dr. Rafael Garcia, Dr. Olivier Morel}
+%% \cvline{Titre}{\emph{An Approach to Melanoma Classification Exploiting Polarization Information}}
+%% \cvline{Description}{\small Developing a classification framework for automatic detection of melanoma lesions while exploiting polarization properties beyond cross-polarized dermoscopes. Using our new polarized dermoscope it was our interest to find new features for classification of melanoma and new techniques for screening of this pigmented lesion.}
+%% \cvline{Soutenue}{13 juin 2016}
+%% \cvline{Mention}{Tr\'es honorable}
+%% %% \cvline{Discipline}{Instrumentation et Informatique de l'Image}
+%% %% \cvline{Financements}{Gouvernement autonome de Catalogne (FI grant)}
+%% %% \cvline{Jury de th\'ese}{}
+%% %% \begin{table}[h]
+%% %% \centering
+%% %% \resizebox{0.9\textwidth}{!}{
+%% %% \begin{tabular}{lllll}
+%% %% \hline
+%% %% Josep Malvehy     & Professeur             & Clinique d'hopital de barcelone         & Examinateur        & -  \\ \hline
+%% %% Francois Goudail  & Professeur             & Institut d'Optique Graduate School            & Rapporteur         & - \\ \hline
+%% %% Jordi Vitria      & Professeur             & Universit\'e de Barcelona                     & Rapporteur         & - \\ \hline
+%% %% Franck Marzani    & Professeur             & Université de Bourgogne (Le2i)                & Directeur de thèse & CNU 61 \\ \hline
+%% %% Rafael Garcia     & Maitre de conférence   & Universitat de Girona (Vicorob)               & Co-directeur       & - \\ \hline
+%% %% Olivier Morel     & Maitre de conférence   & Université de Bourgogne (Le2i)                & Co-encadrant       & CNU 61 \\ \hline 
+%% %% \end{tabular}}
+%% %% \end{table}
+
+
+
 
 \subsection{Résumé de thèse}
 
@@ -172,19 +229,26 @@ Les propri\'et\'es de polarisation et de dermatoscopie des images acquises sont 
 Les tests pr\'eliminaires avec ce premier polarim\'etre de Stokes montrent le potentiel et les b\'en\'efices possibles afin de produire des informations complémentaires \`a celles issues des images couleur RGB classiquement obtenues avec la modalit\'e PD. Ce prototype est actuellement en cours d'utilisation au Melanoma Unit de la Clinic Hospital de Barcelone (Espagne) afin de constituer une base d'images plus cons\'equente et ainsi identifier les d\'esavantages d'un tel syst\`eme.
 
 
+
 \subsection{Travaux de recherche}
+My main works focued on machine learning techniques and classification system for differentiation of melanoma lesions. 
+In this work for the first time, we analyzed the potetial of our partial stokes polarizer for screening the lesions and consecuently developing a classification framework for acquired data.
+This work leaded to the following publications ~\cite{rastgoo2015automatic,rastgo2016classification,rastgoo2016tackling,rastgoo2015ensemble}.
 
-%% En parallèle de mes travaux de recherche qui ont donné lieu aux publications suivantes~\cite{lemaitre2015boosting,lemaitre2015computer,lemaitre2016normalization},
-%% j'ai eu l'occasion de pouvoir étendre certains de ces travaux à
-%% d'autres domaines de recherche. Ainsi, j'ai notemment développé une
-%% toolbox en language Python~\cite{lemaitre2016imbalanced} qui a été
-%% intégré à l'écosystème scikit-learn. Ces travaux nous ont également
-%% permis de traiter des données médicales et particulièrement dans le
-%% problème de detection de mélanome~\cite{rastgoo2016tackling}.
+En parallèle de mes travaux de recherche, J'ai eu des occasions de travailler avec mes collègues sur d'autres domaines tels que le déséquilibre problème, le cancer du sein et le cancer de la prostate et le problème de salience.
 
-%% J'ai également travaillé sur des problèmes de détection de maladies
-%% rétinienne en utilisant différentes approches de machine learning,
-%% faisant l'objet des publications suivantes~\cite{alsaih2016classification,sidibe2017anomaly,lemaitre2016classification}.
+J'ai également travaillé étroitement sur les problèmes de détection de maladies
+rétinienne en utilisant différentes approches de machine learning,
+faisant l'objet des publications suivantes~\cite{alsaih2016classification,sidibe2017anomaly,lemaitre2016classification}.
+
+\subsection{Perspective de recherche}
+
+J'ai eu l'occasion d'exceller dans le domaine de l' machine learning, du traitement d'images et de l'imagerie non conventionnelle pendant ma recherche de doctorat.
+Ces techniques ont été spécifiquement appliquées au domaine de l'imagerie médicale.
+L'utilisation de telles techniques dans le domaine médical est illimitée.
+
+L'apprentissage mécanique et l'imagerie non conventionnelle comme la polarisation peuvent également être appliqués dans le domaine de la vision par ordinateur et plus précisément la robotique et les navigations.
+Ma recherche actuelle est axée sur la dernière perception, où nous sommes intéressés à utiliser les propriétés de polarisation et machine learning pour la navigation des robots.
 
 
 \section{Publications}
@@ -215,10 +279,10 @@ Les tests pr\'eliminaires avec ce premier polarim\'etre de Stokes montrent le po
 
 
 \subsection{Organisation d'évènements scientifiques}
-J'ai co-organisé la seconde édition de la journée doctorale des jeunes
-chercheurs du laboratoire LE2I prenant lieu au Creusot. J'ai également
-participé à l'organisation d'évènements annexes tel que les Vibot
-Days, la semaine d'intégration du programme Vibot.
+I was a co-organizer of the second edition of the doctoral day which took place in Le Creusot (2015). 
+I also participated in organizing the introduction weeks, graduation ceremony as well as ViBot Days during the past years.
+Co-collaborator and organizer of reading groups for doctoral students of Le2i. 
+ 
 
 \subsection{Relecture d'articles scientifiques}
 J'ai effectué des relectures pour des revues scientifiques IEEE Transactions on Medical Imaging et Journal of Research and Developement.

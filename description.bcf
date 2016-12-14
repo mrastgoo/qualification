@@ -2049,6 +2049,13 @@
     <bcf:datasource type="file" datatype="bibtex">bib1.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1">rastgoo2015automatic</bcf:citekey>
+    <bcf:citekey order="1">rastgo2016classification</bcf:citekey>
+    <bcf:citekey order="1">rastgoo2016tackling</bcf:citekey>
+    <bcf:citekey order="1">rastgoo2015ensemble</bcf:citekey>
+    <bcf:citekey order="2">alsaih2016classification</bcf:citekey>
+    <bcf:citekey order="2">sidibe2017anomaly</bcf:citekey>
+    <bcf:citekey order="2">lemaitre2016classification</bcf:citekey>
     <bcf:citekey order="0">*</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global" type="entry" sortscheme="nty" sortnamekeyscheme="global">
