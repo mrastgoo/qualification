@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.17)  14 DEC 2016 01:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.17)  16 DEC 2016 10:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1339,7 +1339,7 @@ LaTeX Info: Redefining \nameref on input line 62.
 
 \makecvheadpicturebox=\box62
 
-<mojdeh.png, id=31, 117.43875pt x 108.405pt>
+<mojdeh.png, id=23, 117.43875pt x 108.405pt>
 File: mojdeh.png Graphic file (type png)
  <use mojdeh.png>
 Package pdftex.def Info: mojdeh.png used on input line 64.
@@ -1404,9 +1404,22 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./mojde
 h.png>]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 146.
+Underfull \hbox (badness 1147) in paragraph at lines 110--110
+[]|\T1/lmss/bx/n/10.95 licence d'électronique et d'électrotechnique\T1/lmss/m/n
+/10.95 (+20) , \T1/lmss/m/sl/10.95 Uni-ver-sity Teknologi PETRONAS, Ipoh
+ []
 
+
+Overfull \hbox (6.63118pt too wide) in paragraph at lines 161--161
+ []|[]\T1/lmss/m/n/10.95 (-20) Programmation[]|
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 163.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 163.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 163.
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
  Make it at least 38.35199pt.
@@ -1414,48 +1427,30 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2]
-Overfull \hbox (6.63118pt too wide) in paragraph at lines 160--160
- []|[]\T1/lmss/m/n/10.95 (-20) Programmation[]|
- []
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 162.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 162.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 162.
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 38.35199pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[3]
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 38.35199pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 279.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 279.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 280.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 280.
  (./moj_cv_french.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 279.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 279.
-Package rerunfilecheck Info: File `moj_cv_french.out' has not changed.
-(rerunfilecheck)             Checksum: 42B9B0F973836618245166ADCEFE5190;657.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 280.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 280.
 
+
+Package rerunfilecheck Warning: File `moj_cv_french.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `moj_cv_french.out':
+(rerunfilecheck)             Before: 2E84C95E78E8E9C9D350F5F104D56129;471
+(rerunfilecheck)             After:  C6DA264C0F95DD62879E520B34E9A343;495.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 31673 strings out of 493027
- 589092 string characters out of 6134075
- 736735 words of memory out of 5000000
- 34720 multiletter control sequences out of 15000+600000
- 84871 words of font info for 83 fonts, out of 8000000 for 9000
+ 31655 strings out of 493027
+ 588883 string characters out of 6134075
+ 736789 words of memory out of 5000000
+ 34716 multiletter control sequences out of 15000+600000
+ 81561 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,14n,75p,10365b,1476s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
@@ -1472,10 +1467,10 @@ texlive/2015/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2015/texm
 f-dist/fonts/type1/public/lm/lmsso17.pfb></usr/local/texlive/2015/texmf-dist/fo
 nts/type1/public/lm/lmsy10.pfb>
-Output written on moj_cv_french.pdf (4 pages, 231338 bytes).
+Output written on moj_cv_french.pdf (2 pages, 217773 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
- 24130 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 87 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
+ 24114 words of extra memory for PDF output out of 24883 (max. 10000000)
 
