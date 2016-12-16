@@ -34,7 +34,7 @@
 %opening
 \title{\LARGE{CANDIDATURE A LA QUALIFICATION
 AUX FONCTIONS DE MAITRE DE CONFERENCES} \\
-	\LARGE{Section CNU: 27\up{ème}} }
+	\LARGE{Section CNU: 61\up{ème}} }
 \author{\textbf{Mojdeh \textsc{Rastgo Dastjerdi}}}
 \date{16/12/2016}
 \begin{document}
@@ -79,10 +79,10 @@ AUX FONCTIONS DE MAITRE DE CONFERENCES} \\
                               & \textbf{Image processing} & \textbf{26h} & Master ViBOT, MAIA, MsCV \\
                                 & \textbf{Computer Aided Design I}  & \textbf{12h} & lisacne BsCV  \\
                                 & \textbf{Medical Image Analysis} & \textbf{41h} & Master ViBOT  \\ 
+                                & \textvf{Total} & \textbf{107h} & \\
 \end{tabular}
 \end{table}
-Mots-clés: Images et g'\'eom\'etrie, sc\`enes, parole, signaux, Intelligence Artificielle
-
+Mots-clés: Medical Image Analysis, Pattern Recognition, Mechine Learning, Computer Aided Diagnosis, Skin Cancer (Melanoma), Multispectral, Polarization
             
 \end{document}
 

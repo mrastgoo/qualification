@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.17)  16 DEC 2016 10:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.17)  16 DEC 2016 11:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**cover.tex
-(./cover.tex
+**cover_61.tex
+(./cover_61.tex
 LaTeX2e <2016/03/31>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
@@ -338,8 +338,8 @@ Type X to quit or <RETURN> to proceed,
 or enter new name. (Default extension: sty)
 
 Enter file name: 
-(./cover.aux)
-\openout1 = `cover.aux'.
+(./cover_61.aux)
+\openout1 = `cover_61.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
@@ -355,12 +355,14 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
 LaTeX Font Info:    Checking defaults for OT2/cmr/m/n on input line 40.
 LaTeX Font Info:    Try loading font information for OT2+cmr on input line 40.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/cyrillic/ot2cmr.fd
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/cyrillic/ot2cmr.fd
 File: ot2cmr.fd 2001/08/11 v3.2c Computer Modern Cyrillic font definitions
 )
 LaTeX Font Info:    ... okay on input line 40.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
+
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count107
@@ -429,9 +431,9 @@ LaTeX Info: Redefining \ref on input line 40.
 LaTeX Info: Redefining \pageref on input line 40.
 LaTeX Info: Redefining \nameref on input line 40.
 
-(./cover.out) (./cover.out)
+(./cover_61.out) (./cover_61.out)
 \@outlinefile=\write4
-\openout4 = `cover.out'.
+\openout4 = `cover_61.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 43.
@@ -472,10 +474,10 @@ AED: lastpage setting LastPage
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 87.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
 
-(./cover.aux)
+(./cover_61.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 87.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
-Package rerunfilecheck Info: File `cover.out' has not changed.
+Package rerunfilecheck Info: File `cover_61.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
@@ -485,12 +487,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
  ) 
 Here is how much of TeX's memory you used:
  7840 strings out of 493027
- 112067 string characters out of 6134075
+ 112106 string characters out of 6134075
  214352 words of memory out of 5000000
  11237 multiletter control sequences out of 15000+600000
  33860 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,12n,43p,297b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,12n,43p,300b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -500,7 +502,7 @@ r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/wasy2-ps/wasy10.pfb>
-Output written on cover.pdf (1 page, 97292 bytes).
+Output written on cover_61.pdf (1 page, 97454 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream

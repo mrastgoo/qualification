@@ -11,11 +11,18 @@
    \definecolor{light-gray}{gray}{0.95}
    \usepackage{titlesec}
    \usepackage{epsf,graphicx}
-   \usepackage[style=numeric-comp,backend=biber,maxcitenames=10,
-   mincitenames=10, maxbibnames=99, minbibnames=99
+   \usepackage[style=numeric,backend=biber,maxcitenames=10,
+   mincitenames=10, maxbibnames=99, minbibnames=99, sorting=none
    ]{biblatex}
    %\usepackage{biblatex}
 %\bibliography{bib1}
+
+   %% \usepackage[
+   %%   backend=biber,
+   %%   style=alphabetic,
+   %%   sorting=ynt
+   %% ]{biblatex}
+
 \addbibresource{bib1.bib}
 \usepackage{epstopdf}
    \titleformat*{\section}{\centering\normalfont\Large\bfseries}
@@ -58,7 +65,7 @@
 \subsection{Résumé des enseignements}
 
 Vous pourrez trouver dans le tableau~\ref{tab:enseignement}, un résumé
-des enseignements effectués durant ma thèse. Referrez-vous à la
+des enseignements effectués durant ma thèse. Ref\'erez-vous à la
 section~\ref{sec:details} pour les détails concernant chaque
 enseignement.
 
@@ -92,29 +99,27 @@ enseignement.
 
 \begin{description}
 \item[Image processing] Cet enseignement a eu pour but d'introduire
-  les bases du traitement de l'image à des étudiants de Master 1 vision et
-  robotique (Vibot), computer vision (MsCV), medical imaging and
-  applications (MAIA). Les TDs et TPs ont abordés des sujets en
+  les bases du traitement d'image à des étudiants de Master 1 vision and robotics (Vibot), computer vision (MsCV), medical imaging and
+  applications (MAIA). Les TDs et TPs ont abordés en
   details les sujets suivants : l'amélioration d'image, l'égualisation
   d'histogramme, les techniques de seuillage, les filtrages dans
   l'espace des fréquences et spatial, les opérations morphologiques et
   la segmentation. Les TPs ont été enseignés en utilisant le language
   Python. Les étudiants ont également eu l'occasion de travailler de
-  manière collaborative avec des outils tel que git et GitHub lors de
+  manière collaborative avec des outils telsque git et GitHub lors de
   projets. De plus, les TPs et TDs ont été organisés de manière
   attractive, tel que les étudiants ont été évalués sur leur
   progression, participation et examens.
 \item[Digital signal processing] est un module des Masters 1 Vibot,
-  MsCV et MAIA. Ce cours présente aussi bien le traitement analogique
-  que numérique du signal avec des thématiques tel que la transformée
+  MsCV et MAIA. Ce cours présente aussi bien le traitement du signal analogique
+  et numérique avec des thématiques tel que la transformée
   de Fourier, les systèmes linéaires et le filtrage. Les TPs ont été
   réalisés en Python et Matlab, laissant aux étudiants le choix du
   language de programmation. Durant ces séances, les étudiants ont pu
   se familiariser à la fois avec les bases théoriques mais également
   les problèmes applicatifs. Comme pour le module précédent, les
   étudiants ont utilisé des outils collaboratifs par le biais de git
-  et GitHub. La méthode d'évaluation mise en place est la même que
-  présentée dans le module précédent.
+  et GitHub. La méthode d'évaluation mise en place est la même présentée dans le module précédent.
 \item[Computer-aided design I - Maple] Le but de cet enseignement fut
   l'introduction d'outils nécessaire pour la modélisation
   mathématiques. En plus de l'analyse numérique, ce cours a introduit
@@ -126,16 +131,16 @@ enseignement.
   aspects théoriques et applicatifs. Les formalités d'évaluation ont
   été les mêmes que pour les deux modules précédents.
 \item[Medical image analysis] est un cours qui a été enseigné au
-  Master 1 Vibot, durant mon doctorat à l'université de Gérone. Ce
+  Master 1 Vibot, durant mon doctorat à l'universitat de Girona. Ce
   cours présente les bases de l'imagerie médicale, de l'acquisition
   d'images jusqu'au traitement de celles-ci, en passant par les
   problématiques de stockage. Les TPs et TDs ont mis l'accent sur le
   format DICOM ainsi que les problématiques de segmentation et
   registration en utilisant différents outils tels qu'ITK et Mevislab.
-  Les étudiants ont également se sont familiarisés avec des méthodes
+  Les étudiants se sont familiarisés avec des méthodes
   d'imagerie médicale diverses, tels que l'IRM, l'ultrason ou la dermoscopie.
 \end{description}
-
+\newpage
 
 %% \subsection{Supervision de projet}
 
@@ -194,33 +199,7 @@ Olivier Morel     & Maitre de conférence   & Université de Bourgogne (Le2i)     
 
 
 
-%% \cventry{2012 - 2016}{Co-joined PhD candidate}{Universitat de Girona,Girona (Spain), Universit\'e de Bourgogne, Le Creusot (France)}{}{}{}
-%% \cvline{Supervisors}{Dr. Franck Marzani, Dr. Rafael Garcia, Dr. Olivier Morel}
-%% \cvline{Titre}{\emph{An Approach to Melanoma Classification Exploiting Polarization Information}}
-%% \cvline{Description}{\small Developing a classification framework for automatic detection of melanoma lesions while exploiting polarization properties beyond cross-polarized dermoscopes. Using our new polarized dermoscope it was our interest to find new features for classification of melanoma and new techniques for screening of this pigmented lesion.}
-%% \cvline{Soutenue}{13 juin 2016}
-%% \cvline{Mention}{Tr\'es honorable}
-%% %% \cvline{Discipline}{Instrumentation et Informatique de l'Image}
-%% %% \cvline{Financements}{Gouvernement autonome de Catalogne (FI grant)}
-%% %% \cvline{Jury de th\'ese}{}
-%% %% \begin{table}[h]
-%% %% \centering
-%% %% \resizebox{0.9\textwidth}{!}{
-%% %% \begin{tabular}{lllll}
-%% %% \hline
-%% %% Josep Malvehy     & Professeur             & Clinique d'hopital de barcelone         & Examinateur        & -  \\ \hline
-%% %% Francois Goudail  & Professeur             & Institut d'Optique Graduate School            & Rapporteur         & - \\ \hline
-%% %% Jordi Vitria      & Professeur             & Universit\'e de Barcelona                     & Rapporteur         & - \\ \hline
-%% %% Franck Marzani    & Professeur             & Université de Bourgogne (Le2i)                & Directeur de thèse & CNU 61 \\ \hline
-%% %% Rafael Garcia     & Maitre de conférence   & Universitat de Girona (Vicorob)               & Co-directeur       & - \\ \hline
-%% %% Olivier Morel     & Maitre de conférence   & Université de Bourgogne (Le2i)                & Co-encadrant       & CNU 61 \\ \hline
-%% %% \end{tabular}}
-%% %% \end{table}
-
-
-
-
-\subsection{Résumé de thèse}
+\subsubsection{Résumé de thèse}
 
 Le m\'elanome malin est le plus mortel des cancers de la peau.
 Il cause la majorit\'e des d\'ec\`es au regard des autres pathologies malignes de la peau.
@@ -238,6 +217,24 @@ Les propri\'et\'es de polarisation et de dermatoscopie des images acquises sont 
 Les tests pr\'eliminaires avec ce premier polarim\'etre de Stokes montrent le potentiel et les b\'en\'efices possibles afin de produire des informations complémentaires \`a celles issues des images couleur RGB classiquement obtenues avec la modalit\'e PD. Ce prototype est actuellement en cours d'utilisation au Melanoma Unit de la Clinic Hospital de Barcelone (Espagne) afin de constituer une base d'images plus cons\'equente et ainsi identifier les d\'esavantages d'un tel syst\`eme.
 
 
+\subsubsection{Les contributions}
+\begin{description}
+\item[Classification automatis\'ee du m\'elanome avec des images dermatoscopiques]
+Le cadre proposé se compose de six étapes principales: prétraitement de l'image, cartographie de l'image, extraction des caractéristiques, représentation des caractéristiques, équilibrage des données et classification.
+Tout en proposant une méthode d'épilation et de segmentation pour la première étape, une variété de caractéristiques au-delà des caractéristiques cliniques communes ont été comparées.
+Ces caractéristiques ont été représentées en utilisant différentes approches, telles que l'analyse des composantes principales, le sac des mots et les caractéristiques codées éparses.
+Avant la phase finale, les techniques d'équilibrage ont été comparées et appliquées à la fois dans les données et dans l'espace des caractéristiques pour éliminer le biais de la classe majoritaire.
+Enfin, on a appliqué la classification en termes d'apprentissage individuel ou collectif.
+
+\item[Classification automatis\'ee du m\'elanome avec des images polarim\'etriques] 
+En utilisant notre propre dermoscope de polarimètre Stokes (pour la première fois), nous pouvons acquérir les trois images différentes à partir desquelles le paramètre Stokes est calculé.
+En utilisant les trois premiers paramètres de Stokes, le degré de polarisation (DoP) et l'angle de polarisation (AoP) en plus des images dermoscopiques ont été utilisés comme source d'information.
+
+Extraire les caractéristiques polarisées et les caractéristiques spatiales (dermoscopiques) et les analyser a montré le potentiel des caractéristiques polarisées.
+
+\end{description}
+
+
 
 \subsection{Travaux de recherche}
 Mes travaux de recherche se focalisent principalement sur des méthodes
@@ -250,7 +247,7 @@ Stokes. Ces travaux ont été publiés dans les revues et conférences suvantes~\cit
 
 En parallèle de mes travaux de recherche, j'ai eu l'opportunité de
 travailler avec mes collègues sur d'autres problématiques de recherche
-tel que les problèmes de dataset déséquilibré, de CADs dédiés à la
+telsque les problèmes de dataset déséquilibré, de CADs dédiés à la
 détection de cancer de la prostate et du sein et à la détection de
 carte de salience.
 
@@ -273,28 +270,6 @@ et navigation. Ma recherche actuelle est axée sur l'apport de
 l'imagerie polarimétrique couplée à des méthodes d'apprentissage
 automatique à la navigation de robots.
 
-\section{Publications}
-  \vspace{-0.5cm}
-  \begin{center}
-\underline{\hspace{8cm}}
-\end{center}
-
-Toutes mes revues publiées sont toutes référencées JCR.
-
-\nocite{*}
-
-%\bibliographystyle{plain}
-%\bibliography{bib1}
-%\renewcommand{\refname}{Publications}
-%\printbibliography
-\printbibliography[type=article,title={Revues internationales}]
-\printbibliography[type=inproceedings,title={Conférences internationales}]
-%\printbibliography [keyword=publifr,title={Conférences nationales}]
-%\printbibliography [keyword=Workshops,title={Workshops}]
-%\printbibliography [keyword=ref,heading=bibempty,title={Références}]
-%\printbibliography
-
-\newpage
 \section{Autres activités}
   \vspace{-0.5cm}
   \begin{center}
@@ -314,6 +289,30 @@ de lecture scientifiques organisés au laboratoire Le2i.
 \subsection{Relecture d'articles scientifiques}
 J'ai effectué des relectures pour des revues scientifiques: IEEE Transactions on Medical Imaging et Journal of Research and Developement.
 
+
+\section{Publications}
+  \vspace{-0.5cm}
+  \begin{center}
+\underline{\hspace{8cm}}
+\end{center}
+
+Toutes mes revues publiées sont toutes référencées JCR.
+
+\nocite{*}
+
+
+%\printbibliography[type=article,title={Revues internationales}]
+%\printbibliography[type=inproceedings,title={Conférences internationales}]
+
+\printbibliography[keyword=JCRjournal,title={Revues internationales}]
+\printbibliography[keyword=conference,title={Conférences internationales}]
+
+\newpage
+
+
+
+
+
 \section{Annexes}
   \vspace{-0.5cm}
   \begin{center}
@@ -325,7 +324,7 @@ Les documents suivants sont joints à ce dossier en annexe:
 \item
 \item Attestation et recommandation de D\'esir\'e Sidib\'e, Maître de conférence, directeur des études du Master Erasmus Mundus Vibot et Master Erasmus+ MAiA.
 \item Attestation et recommandation de C\'edric Demonceaux responsable de la L3 SPI parcours Anglais.
-\item Rapport de thèse : rapports de Jordi Vitria, professeur à l'universitat de Barcelona et de Francois Goudail, professeur à l'institute d'optique graduate school.
+\item Rapport de thèse : rapports de Jordi Vitria, professeur à l'universitat de Barcelona et de Francois Goudail, professeur à l'institut d'optique graduate school.
 \item Rapport de soutenance de thèse de doctorat.
 \item Attestion de réussite au doctorat.
 \item Publications en tant que premier auteur.
