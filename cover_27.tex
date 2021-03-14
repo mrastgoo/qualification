@@ -1,88 +1,343 @@
-\documentclass[a4paper,10pt]{article}
+\documentclass[a4paper,10pt]{memoir}
 % Importation de packages divers
-   \NeedsTeXFormat{LaTeX2e} 
-   \usepackage[usenames]{color}
-   \usepackage[paper=a4paper,textwidth=160mm,twosideshift=0pt,hmargin=2.5cm, vmargin=1.5cm]{geometry}
-   \usepackage{fancyhdr}
-   \usepackage{lastpage}  
-   \usepackage{wasysym}
-   \usepackage{ marvosym }
-   \usepackage{titlesec}
-\titleformat{\section}[block]{\Large\bfseries\filcenter}{}{1em}{}
-   \usepackage{float}
+% \NeedsTeXFormat{LaTeX2e} 
+\usepackage[usenames]{color}
+   \usepackage[
+      paper=a4paper,
+      textwidth=160mm,
+%     twosideshift=0pt,
+      hmargin=2.5cm,
+      vmargin=1.5cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{lastpage}  
+\usepackage{wasysym}
+\usepackage{marvosym}
+\usepackage{titlesec}
+\usepackage[style=numeric,backend=biber,maxcitenames=10,
+mincitenames=10, maxbibnames=99, minbibnames=99, sorting=none
+]{biblatex}
+
+\usepackage{array, xcolor}
+\definecolor{lightgray}{gray}{0.8}
+\newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
+\newcolumntype{R}{p{0.8\textwidth}}
+\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
+\usepackage{epstopdf}
+%    \titleformat*{\section}{\centering\normalfont\Large\bfseries}
+% \titleformat{\section}[block]{\Large\bfseries\filcenter}{}{1em}{}
+\usepackage{float}
 \restylefloat{table}
-    % pour l'affichage du n° de la dernière page.
-   \usepackage[latin1]{inputenc}        % utilisation des caractèrres 8 bits en Unix (codage ISO 8859-1)
- %  \usepackage{floatflt,multirow}       % pour l'utilisation des figure ``noyée'' dans le texte
-   \usepackage[francais]{babel}         % Utilisation du français (nom des sections, césure, ponctuation, ...)
-  % \usepackage{amsmath,amsthm,amssymb}  % Utilisation de certains packages de AMS (cf. belles équations)
-   \usepackage{fontenc}
-   \usepackage[cyr]{aeguill}
-   \usepackage{endnotes}                % Pour l'utilisation des notes en fin de documents
-   \usepackage{verbatim}                % Pour l'insertion de fichier en mode verbatim
-   \usepackage[pdftitle={Fichier realise a partir de base_lettre.tex},  % apparition ds les propriétés du doc
-               pdfauthor={Mojdeh Rastgo Dastjerdi},
-               pdfsubject={Qualification},
-               pdfkeywords={Rastgo},
-	       colorlinks=true,
-	       linkcolor=webdarkblue, 
-	       filecolor=webblue, 
-	       urlcolor=webdarkblue,
-	       citecolor=webgreen]{hyperref}     % pour l'utilisation des liens http,...
-   \usepackage{portland}		% pour l'utilisation de \portrait et de \landscape sur une page
+   % pour l'affichage du n° de la dernière page.
+\usepackage[latin1]{inputenc}        % utilisation des caractèrres 8 bits en Unix (codage ISO 8859-1)
+%  \usepackage{floatflt,multirow}       % pour l'utilisation des figure ``noyée'' dans le texte
+%   \usepackage[francais]{babel}         % Utilisation du français (nom des sections, césure, ponctuation, ...)
+\usepackage{amsmath,amsthm,amssymb}  % Utilisation de certains packages de AMS (cf. belles équations)
+\usepackage{fontenc}
+%   \usepackage[cyr]{aeguill}
+\usepackage{endnotes}                % Pour l'utilisation des notes en fin de documents
+\usepackage{multirow}
+\usepackage{footnote}
+\usepackage{verbatim}                % Pour l'insertion de fichier en mode verbatim
+\usepackage[pdftitle={Fichier realise a partir de base_lettre.tex},  % apparition ds les propriétés du doc
+            pdfauthor={Mojdeh Rastgoo Dastjerdi},
+            pdfsubject={Qualification},
+            pdfkeywords={Rastgoo},
+         colorlinks=true,
+         linkcolor=webdarkblue, 
+         filecolor=webblue, 
+         urlcolor=webdarkblue,
+         citecolor=webgreen]{hyperref}     % pour l'utilisation des liens http,...
 \pagestyle{fancy}
+\addbibresource{bib1.bib}
+
 %opening
-\title{\LARGE{CANDIDATURE A LA QUALIFICATION
-AUX FONCTIONS DE MAITRE DE CONFERENCES} \\
-	\LARGE{Section CNU: 27\up{ème}} }
-\author{\textbf{Mojdeh \textsc{Rastgo Dastjerdi}}}
-\date{16/12/2016}
+\title{
+   \LARGE{DOSSIER DE QUALIFICATION AUX FONCTIONS DE MAITRE DE CONFERENCES} \\
+	\LARGE{Section: 27 }
+   \author{\textbf{Mojdeh \textsc{Rastgo Dastjerdi}}}
+   \date{03/2021}
+}
 \begin{document}
 
+
 \maketitle
-\thispagestyle{fancy}
-  \lhead{Mojdeh \textsc{Rastgo Dastjerdi}}
-  \rhead{}
-  \chead{Dossier de candidature}
-  \cfoot{}
-  \vspace*{3cm}
-  \section*{Etat civil}
- \begin{table}[H]
- \center
- \begin{tabular}{l l} 
-   Nom: & \textbf{Rastgo} \\ \\ [-2ex]
-   Prénom: & \textbf{Mojdeh} \\ \\ [-2ex]
-   Date et lieu de naissance: & \textbf{18 Octobre 1987 à Esfahan} \\ \\ [-2ex]
-   Nationalité: & \textbf{Iranienne} \\ \\ [-2ex]
-   Situation de famille: & \textbf{Mari\'ee sans enfant} \\ \\ [-2ex]
-   Coordonnées professionnelles & \textbf{Le2i - UMR CNRS 6306} \\
-   & \textbf{12 Rue de la Fonderie} \\
-   & \textbf{71200 Le Creusot} \\
-   & \phone \textbf{+33 7 81 01 61 88} \\
-   & \Email \textbf{mojdeh.rastgo-dastjerdi@u-bourgogne.fr} \\ \\ [-2ex]
-   Coordonnées personnelles: & \textbf{86 rue Mar\'echal Foch} \\
-   & 71200 \textbf{Le Creusot} \\
-   & \Mobilefone \textbf{+33 7 81 01 61 88} \\
-   & \Email \textbf{mojdeh.rastgoo@gmail.com} 
-\end{tabular}
- \end{table}
- 
+\clearpage
+\pagestyle{plain}
+\tableofcontents
+
+% \thispagestyle{fancy}
+%   \lhead{Mojdeh \textsc{Rastgo Dastjerdi}}
+%   \rhead{}
+%   \chead{Dossier de candidature}
+%   \cfoot{}
+%   \vspace*{3cm}
+%   \section*{Etat civil}
+%  
+
+% \tableofcontents
  %Vision omnidirectionnelle $\&$ hybride, Structure-From-Motion, Suivi-visuel, Auto-calibrage, Robotique mobile
- \section*{Résumé}
-\begin{table}[h]
-\begin{tabular}{llll}
-\multirow{}{}{Publications:}  & \textbf{Revues:}              & \textbf{3}   & 1 en 1\textsuperscript{er} auteur          \\
-                                & \textbf{Conférences}          & \textbf{12}   & 8 en auteur correspondant       \\
-                                & \textbf{Rapport technique}            & \textbf{2}   &                           \\ \\ [-2ex]
- 
-\multirow{}{}{Enseignements:} & \textbf{Digital signal processing}  & \textbf{28h} & Master ViBOT, MAIA, MsCV  \\
-                              & \textbf{Image processing} & \textbf{26h} & Master ViBOT, MAIA, MsCV \\
-                                & \textbf{Computer Aided Design I}  & \textbf{12h} & lisacne BsCV  \\
-                                & \textbf{Medical Image Analysis} & \textbf{41h} & Master ViBOT  \\ 
-                                & \textbf{Total} & \textbf{107h} & \\
-\end{tabular}
+\chapter{Curriculum Vitale}
+% \addcontentsline{toc}{chapter}{Curriculum Vitale}
+\Large{\textbf{Mojdeh Rastgoo Dastjerdi}}\\
+
+\begin{table}[H]
+    \center
+    \begin{tabular}{l l} 
+      Age: & 33 ans \\ \\ [-2ex]
+      Date et lieu de naissance: & \textbf{18 Octobre 1987 à Esfahan} \\ \\ [-2ex]
+      Nationalité: & \textbf{Iranienne} \\ \\ [-2ex]
+      Coordonnées professionnelles & \textbf{Saint-Gobain Research Paris} \\
+      & \textbf{39 Quai Lucien Lefranc} \\
+      & \textbf{93300 Aubervilliers} \\
+      & \Email \textbf{mojdeh.rastgoo-lemaitre@saint-gobain.com} \\ \\ [-2ex]
+      Coordonnées personnelles: & \textbf{8A Rue Magellan} \\
+      & 91300 \textbf{Massy} \\
+      & \Mobilefone \textbf{+33 7 81 01 61 88} \\
+      & \Email \textbf{mojdeh.rastgoo@gmail.com}\\
+      & \textbf{Page Web}: \url{https://mrastgoo.github.io/}
+   \end{tabular}
 \end{table}
-Mots-clés: Images et g\'eom\'etrie, sc\`enes, parole, signaux, Intelligence artificielle, Data mining
+
+\section{Situation actuelle}
+% \addcontentsline{toc}{section}{Situation actuelle}
+Engineer de research \'a Saint-Gobain Research Paris, Departemetent Optic-Mesure-Mathematic, dans le equipe mathematic applic\'e (Datalab).
+Dans mon poste actuel, je fais de la recherche appliqu\'ee dans diff\'erents domaines 
+de l'intelligence artificielle tels que le traitement du langage naturel (NLP), 
+les prévisions de séries temporal et l'apprentissage automatique classique. 
+
+\section{Formation et titre universitaire}
+% \addcontentsline{toc}{section}{Formation et titre universitaire}
+
+\begin{table}[H]
+\begin{tabular}{L!{\VRule}R}
+
+   \textbf{2012--2016} & \textbf{\large{Th\`ese doctorat en cotutelle}}\\
+      & l'Université de Bourgogne au laboratoire Le2i\\
+      & l'Universitat de Girona - \'a l'Institut VICOROB \\
+      & Title : \textbf{An Approach to Melanoma Classification Exploiting Polarization Information}\\
+      & Soutenue le : 13 Juin 2016\\
+      & Mention : Très Honorable\\
+      & Financements : Gouvernement Autonome de Catalogne (FI grant)\\
+      & Directeurs de thèse : \\
+      & \hspace{1cm} - M.~Franck Marzani et M.~Olivier Morel à l'Université de Bourgogne\\
+      & \hspace{1cm} - M.~Rafael Garcia,  à l'Universitat de Girona\\
+      & Composition de Jury : \\
+      & - Pr\'esident de jury : \\
+      &   \hspace{1cm}M.~Jordi Vitria - Professeur - Universit\'e de Barcelona \\
+      & - Rapporteur : \\
+      &   \hspace{1cm}M.~Francois Goudail - Professeur - Institut d'Optique Graduate School\\
+      & - Rapporteur : \\
+      &  \hspace{1cm}M.~Josep Malvehy - Docteur - Clinique de l'Hopital de Barcelone \\[5pt]
+   \textbf{2009--2011} & \textbf{\large{Erasmus Mundus Master in Vision and Robotics (ViBOT)}}\\
+      & Heriot -Watt University, Edinburgh (Scotland), 
+      Univeristat de Girona, Girona (Spain),  et
+      Universit\'e de Bourgogne, Le Creusot (France) \\
+      & Title de Th\`ese : \textbf{Epiluminescent Microscopy for Early Detection of Skin Cancer}\\
+      & Universitat de Girona \\
+      & Supervisor : M.~Rafel Garcia \\[5pt]
+   \textbf{2005--2009} & \textbf{\large{Licence  d'\'electronique et d'\'electrotechnique}}\\
+      & University Teknologi PETRONAS, Ipoh (Malaysia)\\
+      & Mention : $1^{st}$ Class Hounor, CGPA: 3.64/4.00\\  
+
+
+   \end{tabular}
+\end{table}
+\clearpage
+
+
+\section{Synth\'ese des activit\'e d'esnseignment}
+% \addcontentsline{toc}{section}{Synth\'ese des activit\'e d'esnseignment}
+\textit{In the following you can find the details of my teaching experience during my PhD studies}.
+In addition to these courses I also have participated as python instructor in \textit{Eurocipy-2018~\footnote{\url{https://www.euroscipy.org/2018/program.html}}} confernece.}
+
+
+\begin{savenotes}
+\begin{table}[h]
+  \centering
+  {\renewcommand{\arraystretch}{1.2}
+    \caption{Récapitulatif des enseignements effectués}
+    \begin{tabular}{llcccc}
+      \toprule
+      \textbf{Année} & \textbf{Enseignement} & \textbf{Niveau}  & \multicolumn{3}{c}{\textbf{Volume}} \\ \cmidrule(lr){4-6}
+                     &   &    &  CM  & TD & TP \\ \midrule    
+      \multirow{3}{}{2016/2017} & Digital signal processing & Master ViBOT, MAIA, MsCV 1\textsuperscript{ère} année & & & 42h \\
+      & Image processing & Master ViBOT, MAIA, MsCV 1\textsuperscript{ème} année & & 6h & 30h\\
+      & Computer-aided design I & License BsCV 1\textsuperscript{ère} & & & 18h \\ \cmidrule(lr){1-6}
+      2013/2014 & Medical image analysis & Master ViBOT 1\textsuperscript{ème} année & & 10h & 16h \\ \cmidrule(lr){1-6}
+      2012/2013 & Medical image analysis & Master ViBOT 1\textsuperscript{ème} année & & 10h & 16h \\
+
+      \midrule
+      \textbf{Total} & & &  & \textbf{26h} & \textbf{122h} \\
+      \bottomrule
+    \end{tabular}}
+  \label{tab:enseignement}
+\end{table}
+\end{savenotes}
+
+\section{Synthèse des activités de recherche}
+\textbf{re-wirte this section - copied from another file}
+Cette section a pour but de présenter un bref descriptif de mon experience de
+recherche ainsi que du contexte de ces recherches. Le contenu sera développé plus
+en détail dans la partie consacrée à la recherche (cf. section III)\\
+   % \textbf{2016--2018} & \textbf{\large{Post-doctorat}}\\
+   %    & \\
+   %    & Title : \textbf{}\\[5pt]
+\subsection{Research post-doctorales}\\
+\begin{itemize}
+   \item[]Dates : 2016 -- 2018
+   \item[]Titre : Polarimetric Vision Applied to Robotics Navigation
+   \item[]Lieu : Universit\'e de Bourgogne and Franch-Comt\'e, au laboratoire Le2i
+   \item[]Theme : get the abstract from the paper 
+\end{itemize}
+
+\subsection{Thèse de doctorat}
+\begin{itemize}
+   \item[]Dates : 2012 -- 2016 
+   \item[]Titre : 
+   \item[]Lieu : 
+   \item[]Theme :   
+\end{itemize}
+
+\subsection{Stage de recherche}
+\begin{itemize}
+   \item[]Dates : 2011 -- 2012
+   \item[]Titre : 
+   \item[]Lieu : Barcelona Digital
+   \item[]Theme :   
+\end{itemize}
+
+\subsection{Stage de recherche}
+\begin{itemize}
+   \item[]Dates : 2011 -- 2012
+   \item[]Titre : 
+   \item[]Lieu : Barcelona Digital
+   \item[]Theme :   
+\end{itemize}
+
+% \subsection*{Détails des enseignements}\label{sec:details}
+
+% \begin{description}
+% \item[Image processing] Cet enseignement a eu pour but d'introduire
+%   les bases du traitement d'image à des étudiants de Master 1 vision and robotics (Vibot), computer vision (MsCV), medical imaging and
+%   applications (MAIA). Les TDs et TPs ont abordés en
+%   details les sujets suivants : l'amélioration d'image, l'égualisation
+%   d'histogramme, les techniques de seuillage, les filtrages dans
+%   l'espace des fréquences et spatial, les opérations morphologiques et
+%   la segmentation. Les TPs ont été enseignés en utilisant le language
+%   Python. Les étudiants ont également eu l'occasion de travailler de
+%   manière collaborative avec des outils telsque git et GitHub lors de
+%   projets. De plus, les TPs et TDs ont été organisés de manière
+%   attractive, tel que les étudiants ont été évalués sur leur
+%   progression, participation et examens.
+% \item[Digital signal processing] est un module des Masters 1 Vibot,
+%   MsCV et MAIA. Ce cours présente aussi bien le traitement du signal analogique
+%   et numérique avec des thématiques tel que la transformée
+%   de Fourier, les systèmes linéaires et le filtrage. Les TPs ont été
+%   réalisés en Python et Matlab, laissant aux étudiants le choix du
+%   language de programmation. Durant ces séances, les étudiants ont pu
+%   se familiariser à la fois avec les bases théoriques mais également
+%   les problèmes applicatifs. Comme pour le module précédent, les
+%   étudiants ont utilisé des outils collaboratifs par le biais de git
+%   et GitHub. La méthode d'évaluation mise en place est la même présentée dans le module précédent.
+% \item[Computer-aided design I - Maple] Le but de cet enseignement fut
+%   l'introduction d'outils nécessaire pour la modélisation
+%   mathématiques. En plus de l'analyse numérique, ce cours a introduit
+%   les languages de programmation Matlab et Maple à des étudiants de
+%   Licence 3. Les TPs ont présenté les bases de Maxima par le biais
+%   d'analyse et représentation de fonction, d'algèbre linéaire et des
+%   séries de Fourier. Pour chaque aspect, plusieurs applications ont
+%   été résolus par les étudiants pour qu'ils se familiarisent aves les
+%   aspects théoriques et applicatifs. Les formalités d'évaluation ont
+%   été les mêmes que pour les deux modules précédents.
+% \item[Medical image analysis] est un cours qui a été enseigné au
+%   Master 1 Vibot, durant mon doctorat à l'universitat de Girona. Ce
+%   cours présente les bases de l'imagerie médicale, de l'acquisition
+%   d'images jusqu'au traitement de celles-ci, en passant par les
+%   problématiques de stockage. Les TPs et TDs ont mis l'accent sur le
+%   format DICOM ainsi que les problématiques de segmentation et
+%   registration en utilisant différents outils tels qu'ITK et Mevislab.
+%   Les étudiants se sont familiarisés avec des méthodes
+%   d'imagerie médicale diverses, tels que l'IRM, l'ultrason ou la dermoscopie.
+% \end{description}
+
+
+
+
+
+% \subsubsection{Résumé de thèse}
+
+% Le m\'elanome malin est le plus mortel des cancers de la peau.
+% Il cause la majorit\'e des d\'ec\`es au regard des autres pathologies malignes de la peau.
+% Toutefois, ce type de cancer se soigne d\'es lors qu'un diagnostic est pos\'e pr\'ecocement.
+% Ainsi, le taux de survie est fortement corr\'el\'e \`a un diagnostic pr\'ecoce ; de nombreux syst\`emes d'aide au diagnostic (CAD) ont \'et\'e propos\'es par la communaut\'e pour assister les dermatologues dans leur diagnostic.
+% La modalit\'e d'imagerie de la peau la plus classiquement utilis\'ee est la dermatoscopie avec polarisation crois\'ee.
+% Les dermatoscopes avec polarisation crois\'ee (PD) permettent la visualisation de la structure anatomique inf\'erieure de l'\'epiderme, le derme papillaire et \'eliminent la r\'eflexion sp\'eculaire de surface.
+% Bien que cette modalit\'e ait \'et\'e utilis\'ee tr\`es fr\'equemment, le fort potentiel des mesures de polarisation n'a pas \'et\'e \'etudi\'e dans le domaine de l'imagerie de la peau.
+
+% Dans un premier temps, notre recherche a port\'e sur une analyse pouss\'ee des diff\'erents aspects de la classification automatique des l\'esions pigmentaires (PSLs) ce qui nous permet de proposer un syst\`eme CAD pour la reconnaissance automatique des l\'esions de type m\'elanome \`a partir d'images de modalit\'e PD.
+% Ce syst\`eme CAD est \'evalu\'e \`a partir de nombreuses exp\'erimentations effectu\'ees sur deux bases de donn\'ees d'images.
+% Dans un deuxi\`eme temps, afin d'\'etudier l'imagerie de polarisation, un nouveau syst\`eme de polarim\'etrie partiel de type Stokes est propos\'e.
+% Ce syst\`eme est capable d'acqu\'erir des images polaris\'ees de PSLs in-vivo de l'\'epiderme et des couches superficielles du derme, fr\'equemment \'a l'origine des l\'esions de la peau.
+% Les propri\'et\'es de polarisation et de dermatoscopie des images acquises sont ensuite analys\'ees afin de proposer un nouveau syst\`eme CAD bas\'e sur l'imagerie de polarisation.
+% Les tests pr\'eliminaires avec ce premier polarim\'etre de Stokes montrent le potentiel et les b\'en\'efices possibles afin de produire des informations complémentaires \`a celles issues des images couleur RGB classiquement obtenues avec la modalit\'e PD. Ce prototype est actuellement en cours d'utilisation au Melanoma Unit de la Clinic Hospital de Barcelone (Espagne) afin de constituer une base d'images plus cons\'equente et ainsi identifier les d\'esavantages d'un tel syst\`eme.
+
+
+% \subsubsection{Les contributions}
+% \begin{description}
+% \item[Classification automatis\'ee du m\'elanome avec des images dermatoscopiques]
+% Le cadre proposé se compose de six étapes principales: prétraitement de l'image, cartographie de l'image, extraction des caractéristiques, représentation des caractéristiques, équilibrage des données et classification.
+% Tout en proposant une méthode d'épilation et de segmentation pour la première étape, une variété de caractéristiques au-delà des caractéristiques cliniques communes ont été comparées.
+% Ces caractéristiques ont été représentées en utilisant différentes approches, telles que l'analyse des composantes principales, le sac des mots et les caractéristiques codées éparses.
+% Avant la phase finale, les techniques d'équilibrage ont été comparées et appliquées à la fois dans les données et dans l'espace des caractéristiques pour éliminer le biais de la classe majoritaire.
+% Enfin, on a appliqué la classification en termes d'apprentissage individuel ou collectif.
+
+% \item[Classification automatis\'ee du m\'elanome avec des images polarim\'etriques] 
+% En utilisant notre propre dermoscope de polarimètre Stokes (pour la première fois), nous pouvons acquérir les trois images différentes à partir desquelles le paramètre Stokes est calculé.
+% En utilisant les trois premiers paramètres de Stokes, le degré de polarisation (DoP) et l'angle de polarisation (AoP) en plus des images dermoscopiques ont été utilisés comme source d'information.
+
+% Extraire les caractéristiques polarisées et les caractéristiques spatiales (dermoscopiques) et les analyser a montré le potentiel des caractéristiques polarisées.
+
+% \end{description}
+
+
+
+% \subsection{Travaux de recherche}
+% Mes travaux de recherche se focalisent principalement sur des méthodes
+% d'apprentissage statistiques et automatiques dédiées à la
+% classification de mélanomes. Mes recherches se sont également
+% focalisées sur l'apport potentiel de l'imagerie polarimétrique comme
+% une nouvelle modalité d'imagerie médicale à des fins de détection de
+% mélanomes. Pour cela nous avons utilisé un modèle partiel de
+% Stokes. Ces travaux ont été publiés dans les revues et conférences suvantes~\cite{rastgoo2015automatic,rastgo2016classification,rastgoo2016tackling,rastgoo2015ensemble}.
+
+% En parallèle de mes travaux de recherche, j'ai eu l'opportunité de
+% travailler avec mes collègues sur d'autres problématiques de recherche
+% telsque les problèmes de dataset déséquilibré, de CADs dédiés à la
+% détection de cancer de la prostate et du sein et à la détection de
+% carte de salience.
+
+% J'ai également travaillé sur les problèmes de détection de maladies
+% rétiniennes en utilisant différentes approches de machine learning,
+% faisant l'objet des publications suivantes~\cite{alsaih2016classification,sidibe2017anomaly,lemaitre2016classification}.
+
+
+
+% \clearpage
+
+% \begin{table}[h]
+% \begin{tabular}{llll}
+% \multirow{}{}{Publications:}  & \textbf{Revues:}              & \textbf{3}   & 1 en 1\textsuperscript{er} auteur          \\
+%                                 & \textbf{Conférences}          & \textbf{12}   & 8 en auteur correspondant       \\
+%                                 & \textbf{Rapport technique}            & \textbf{2}   &                           \\ \\ [-2ex]
+ 
+% \multirow{}{}{Enseignements:} & \textbf{Digital signal processing}  & \textbf{28h} & Master ViBOT, MAIA, MsCV  \\
+%                               & \textbf{Image processing} & \textbf{26h} & Master ViBOT, MAIA, MsCV \\
+%                                 & \textbf{Computer Aided Design I}  & \textbf{12h} & lisacne BsCV  \\
+%                                 & \textbf{Medical Image Analysis} & \textbf{41h} & Master ViBOT  \\ 
+%                                 & \textbf{Total} & \textbf{107h} & \\
+% \end{tabular}
+% \end{table}
+% Mots-clés: Images et g\'eom\'etrie, sc\`enes, parole, signaux, Intelligence artificielle, Data mining
 
             
 \end{document}
