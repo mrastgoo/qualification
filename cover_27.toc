@@ -1,0 +1,20 @@
+\contentsline {chapter}{Contents}{2}{section*.1}%
+\contentsline {chapter}{\chapternumberline {1}Curriculum Vitale}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Situation actuelle}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Formation et titre universitaire}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Synth\'ese des activit\'e d'esnseignment}{5}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Synth\`ese des activit\'es de recherche}{5}{section.1.4}%
+\contentsline {subsection}{Research post-doctorales}{5}{subsection*.2}%
+\contentsline {subsection}{Th\`ese de doctorat}{5}{subsection*.3}%
+\contentsline {subsection}{Stage de recherche}{5}{subsection*.4}%
+\contentsline {subsection}{Stage de recherche}{6}{subsection*.5}%
+\contentsline {subsection}{Publications et communications}{6}{subsection*.6}%
+\contentsline {subsubsection}{En tant que premier auteur}{6}{subsubsection*.7}%
+\contentsline {subsubsection}{En tant que collaborateur}{6}{subsubsection*.8}%
+\contentsline {chapter}{\chapternumberline {2}Enseignement}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}D\'etails des enseignements effectu\'es}{9}{section.2.1}%
+\contentsline {subsection}{Image Processing}{9}{subsection*.9}%
+\contentsline {subsection}{Computer-aided design I - Maple}{9}{subsection*.10}%
+\contentsline {subsection}{Digital signal processing}{9}{subsection*.11}%
+\contentsline {subsection}{Medical image analysis}{10}{subsection*.12}%
+\contentsline {chapter}{\chapternumberline {3}Research}{11}{chapter.3}%

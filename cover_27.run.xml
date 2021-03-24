@@ -41,43 +41,42 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="0">
+  <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>description.bcf</file>
+      <file>cover_27.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>description.bbl</file>
+      <file>cover_27.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
       <file>blx-compat.def</file>
-      <file>biblatex_.def</file>
-      <file>numeric.bbx</file>
+      <file>biblatex.def</file>
       <file>standard.bbx</file>
+      <file>numeric.bbx</file>
       <file>numeric.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
-      <file>french.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="0">
+  <external package="biblatex" priority="5" active="1">
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>description</infile>
+      <infile>cover_27</infile>
     </cmdline>
     <input>
-      <file>description.bcf</file>
+      <file>cover_27.bcf</file>
     </input>
     <output>
-      <file>description.bbl</file>
+      <file>cover_27.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>description.bbl</file>
+      <file>cover_27.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>description.bcf</file>
+      <file>cover_27.bcf</file>
     </requires>
     <requires type="editable">
       <file>bib1.bib</file>

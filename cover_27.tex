@@ -1,21 +1,21 @@
 \documentclass[a4paper,10pt]{memoir}
 % Importation de packages divers
 % \NeedsTeXFormat{LaTeX2e} 
-\usepackage[usenames]{color}
-   \usepackage[
-      paper=a4paper,
-      textwidth=160mm,
-%     twosideshift=0pt,
-      hmargin=2.5cm,
-      vmargin=1.5cm]{geometry}
+
+\usepackage[
+   paper=a4paper,
+   textwidth=160mm,
+   hmargin=2.5cm,
+   vmargin=1.5cm]{geometry}
 \usepackage{fancyhdr}
 \usepackage{lastpage}  
 \usepackage{wasysym}
+\usepackage[usenames]{color}
 \usepackage{marvosym}
 \usepackage{titlesec}
-\usepackage[style=numeric,backend=biber,maxcitenames=10,
-mincitenames=10, maxbibnames=99, minbibnames=99, sorting=none
-]{biblatex}
+% \usepackage[style=numeric,backend=biber,maxcitenames=10,
+% mincitenames=10, maxbibnames=99, minbibnames=99, sorting=none
+% ]{biblatex}
 
 \usepackage{array, xcolor}
 \definecolor{lightgray}{gray}{0.8}
@@ -26,7 +26,8 @@ mincitenames=10, maxbibnames=99, minbibnames=99, sorting=none
 %    \titleformat*{\section}{\centering\normalfont\Large\bfseries}
 % \titleformat{\section}[block]{\Large\bfseries\filcenter}{}{1em}{}
 \usepackage{float}
-\restylefloat{table}
+\usepackage{hyperref}
+% \restylefloat{table}
    % pour l'affichage du n° de la dernière page.
 \usepackage[latin1]{inputenc}        % utilisation des caractèrres 8 bits en Unix (codage ISO 8859-1)
 %  \usepackage{floatflt,multirow}       % pour l'utilisation des figure ``noyée'' dans le texte
@@ -38,45 +39,37 @@ mincitenames=10, maxbibnames=99, minbibnames=99, sorting=none
 \usepackage{multirow}
 \usepackage{footnote}
 \usepackage{verbatim}                % Pour l'insertion de fichier en mode verbatim
-\usepackage[pdftitle={Fichier realise a partir de base_lettre.tex},  % apparition ds les propriétés du doc
-            pdfauthor={Mojdeh Rastgoo Dastjerdi},
-            pdfsubject={Qualification},
-            pdfkeywords={Rastgoo},
-         colorlinks=true,
-         linkcolor=webdarkblue, 
-         filecolor=webblue, 
-         urlcolor=webdarkblue,
-         citecolor=webgreen]{hyperref}     % pour l'utilisation des liens http,...
-\pagestyle{fancy}
-\addbibresource{bib1.bib}
+% \usepackage[pdftitle={Fichier realise a partir de base_lettre.tex},  % apparition ds les propriétés du doc
+%             pdfauthor={Mojdeh Rastgoo Dastjerdi},
+%             pdfsubject={Qualification},
+%             pdfkeywords={Rastgoo},
+%          colorlinks=true,
+%          linkcolor=webdarkblue, 
+%          filecolor=webblue, 
+%          urlcolor=webdarkblue,
+%          citecolor=webgreen]{hyperref}     % pour l'utilisation des liens http,...
+% \pagestyle{fancy}
+% \addbibresource{bib1.bib}
 
 %opening
 \title{
+   \centering{
    \LARGE{DOSSIER DE QUALIFICATION AUX FONCTIONS DE MAITRE DE CONFERENCES} \\
-	\LARGE{Section: 27 }
-   \author{\textbf{Mojdeh \textsc{Rastgo Dastjerdi}}}
+	\LARGE{Section: 27 }\\
+   \author{\textbf{Mojdeh \textsc{Rastgo Dastjerdi}}}\\
    \date{03/2021}
-}
-\begin{document}
 
+   }
+}
+
+\begin{document}
 
 \maketitle
 \clearpage
 \pagestyle{plain}
 \tableofcontents
 
-% \thispagestyle{fancy}
-%   \lhead{Mojdeh \textsc{Rastgo Dastjerdi}}
-%   \rhead{}
-%   \chead{Dossier de candidature}
-%   \cfoot{}
-%   \vspace*{3cm}
-%   \section*{Etat civil}
-%  
-
-% \tableofcontents
- %Vision omnidirectionnelle $\&$ hybride, Structure-From-Motion, Suivi-visuel, Auto-calibrage, Robotique mobile
-\chapter{Curriculum Vitale}
+\chapter{Curriculum Vitale}\label{cv}
 % \addcontentsline{toc}{chapter}{Curriculum Vitale}
 \Large{\textbf{Mojdeh Rastgoo Dastjerdi}}\\
 
@@ -148,8 +141,8 @@ les prévisions de séries temporal et l'apprentissage automatique classique.
 \section{Synth\'ese des activit\'e d'esnseignment}
 % \addcontentsline{toc}{section}{Synth\'ese des activit\'e d'esnseignment}
 \textit{In the following you can find the details of my teaching experience during my PhD studies}.
-In addition to these courses I also have participated as python instructor in \textit{Eurocipy-2018~\footnote{\url{https://www.euroscipy.org/2018/program.html}}} confernece.}
-
+In addition to these courses I have also participated as python instructor in \textit{Eurocipy-2018~\footnote{\url{https://www.euroscipy.org/2018/program.html}}} confernece.
+}
 
 \begin{savenotes}
 \begin{table}[h]
@@ -160,14 +153,17 @@ In addition to these courses I also have participated as python instructor in \t
       \toprule
       \textbf{Année} & \textbf{Enseignement} & \textbf{Niveau}  & \multicolumn{3}{c}{\textbf{Volume}} \\ \cmidrule(lr){4-6}
                      &   &    &  CM  & TD & TP \\ \midrule    
+      \multirow{2}{}{2017/2018} 
+      & Image processing & Master ViBOT, MAIA, MsCV 1\textsuperscript{ème} année & & 6h & 30h\\
+      & Computer-aided design I & License BsCV 1\textsuperscript{ère} & & & 18h \\ \cmidrule(lr){1-6}
       \multirow{3}{}{2016/2017} & Digital signal processing & Master ViBOT, MAIA, MsCV 1\textsuperscript{ère} année & & & 42h \\
       & Image processing & Master ViBOT, MAIA, MsCV 1\textsuperscript{ème} année & & 6h & 30h\\
       & Computer-aided design I & License BsCV 1\textsuperscript{ère} & & & 18h \\ \cmidrule(lr){1-6}
       2013/2014 & Medical image analysis & Master ViBOT 1\textsuperscript{ème} année & & 10h & 16h \\ \cmidrule(lr){1-6}
       2012/2013 & Medical image analysis & Master ViBOT 1\textsuperscript{ème} année & & 10h & 16h \\
-
+     
       \midrule
-      \textbf{Total} & & &  & \textbf{26h} & \textbf{122h} \\
+      \textbf{Total} & & &  & \textbf{32h} & \textbf{170h} \\
       \bottomrule
     \end{tabular}}
   \label{tab:enseignement}
@@ -176,9 +172,8 @@ In addition to these courses I also have participated as python instructor in \t
 
 \section{Synthèse des activités de recherche}
 \textbf{re-wirte this section - copied from another file}
-Cette section a pour but de présenter un bref descriptif de mon experience de
-recherche ainsi que du contexte de ces recherches. Le contenu sera développé plus
-en détail dans la partie consacrée à la recherche (cf. section III)\\
+This sections contains the summary of my research activities. 
+The detail representation of research activities will be presented in section~\ref{researchmain}.\\
    % \textbf{2016--2018} & \textbf{\large{Post-doctorat}}\\
    %    & \\
    %    & Title : \textbf{}\\[5pt]
@@ -187,78 +182,183 @@ en détail dans la partie consacrée à la recherche (cf. section III)\\
    \item[]Dates : 2016 -- 2018
    \item[]Titre : Polarimetric Vision Applied to Robotics Navigation
    \item[]Lieu : Universit\'e de Bourgogne and Franch-Comt\'e, au laboratoire Le2i
-   \item[]Theme : get the abstract from the paper 
+   \item[]Theme : Attitude estimation of Unmanned Aerial Vehicle (UAV) from sky images based on skylight polarized patterns. 
 \end{itemize}
+
+
+
 
 \subsection{Thèse de doctorat}
 \begin{itemize}
    \item[]Dates : 2012 -- 2016 
-   \item[]Titre : 
-   \item[]Lieu : 
-   \item[]Theme :   
+   \item[]Titre : An Approach to Melanoma Classification Exploiting Polarization Information
+   \item[]Lieu : Universit\'e de Bourgogne and Franch-Comt\'e (Le Creusot) & Universitat de Girona (Girona)
+   \item[]Theme : Developing a classification framework for automatic detection of melanoma lesions while exploiting
+   polarization properties beyond cross-polarized dermoscopes. 
+   % Using our new polarized dermoscope it was
+   % our interest to find new features for classification of melanoma and new techniques for screening of this
+   % pigmented lesion.
 \end{itemize}
 
 \subsection{Stage de recherche}
 \begin{itemize}
    \item[]Dates : 2011 -- 2012
-   \item[]Titre : 
-   \item[]Lieu : Barcelona Digital
-   \item[]Theme :   
+   \item[]Titre : Data mining and classification
+   \item[]Lieu : Barcelona Digital (Barcelona)
+   \item[]Theme : Developing a method for continous learning and pruning of classifiers.
 \end{itemize}
 
 \subsection{Stage de recherche}
 \begin{itemize}
-   \item[]Dates : 2011 -- 2012
-   \item[]Titre : 
-   \item[]Lieu : Barcelona Digital
-   \item[]Theme :   
+   \item[]Dates : 2010
+   \item[]Titre : Astronomical image analysis
+   \item[]Lieu : Universitat de Girona (Girona)
+   \item[]Theme : Segmentation and localization of astronomical
+   objects. 
 \end{itemize}
 
-% \subsection*{Détails des enseignements}\label{sec:details}
 
-% \begin{description}
-% \item[Image processing] Cet enseignement a eu pour but d'introduire
-%   les bases du traitement d'image à des étudiants de Master 1 vision and robotics (Vibot), computer vision (MsCV), medical imaging and
-%   applications (MAIA). Les TDs et TPs ont abordés en
-%   details les sujets suivants : l'amélioration d'image, l'égualisation
-%   d'histogramme, les techniques de seuillage, les filtrages dans
-%   l'espace des fréquences et spatial, les opérations morphologiques et
-%   la segmentation. Les TPs ont été enseignés en utilisant le language
-%   Python. Les étudiants ont également eu l'occasion de travailler de
-%   manière collaborative avec des outils telsque git et GitHub lors de
-%   projets. De plus, les TPs et TDs ont été organisés de manière
-%   attractive, tel que les étudiants ont été évalués sur leur
-%   progression, participation et examens.
-% \item[Digital signal processing] est un module des Masters 1 Vibot,
-%   MsCV et MAIA. Ce cours présente aussi bien le traitement du signal analogique
-%   et numérique avec des thématiques tel que la transformée
-%   de Fourier, les systèmes linéaires et le filtrage. Les TPs ont été
-%   réalisés en Python et Matlab, laissant aux étudiants le choix du
-%   language de programmation. Durant ces séances, les étudiants ont pu
-%   se familiariser à la fois avec les bases théoriques mais également
-%   les problèmes applicatifs. Comme pour le module précédent, les
-%   étudiants ont utilisé des outils collaboratifs par le biais de git
-%   et GitHub. La méthode d'évaluation mise en place est la même présentée dans le module précédent.
-% \item[Computer-aided design I - Maple] Le but de cet enseignement fut
-%   l'introduction d'outils nécessaire pour la modélisation
-%   mathématiques. En plus de l'analyse numérique, ce cours a introduit
-%   les languages de programmation Matlab et Maple à des étudiants de
-%   Licence 3. Les TPs ont présenté les bases de Maxima par le biais
-%   d'analyse et représentation de fonction, d'algèbre linéaire et des
-%   séries de Fourier. Pour chaque aspect, plusieurs applications ont
-%   été résolus par les étudiants pour qu'ils se familiarisent aves les
-%   aspects théoriques et applicatifs. Les formalités d'évaluation ont
-%   été les mêmes que pour les deux modules précédents.
-% \item[Medical image analysis] est un cours qui a été enseigné au
-%   Master 1 Vibot, durant mon doctorat à l'universitat de Girona. Ce
-%   cours présente les bases de l'imagerie médicale, de l'acquisition
-%   d'images jusqu'au traitement de celles-ci, en passant par les
-%   problématiques de stockage. Les TPs et TDs ont mis l'accent sur le
-%   format DICOM ainsi que les problématiques de segmentation et
-%   registration en utilisant différents outils tels qu'ITK et Mevislab.
-%   Les étudiants se sont familiarisés avec des méthodes
-%   d'imagerie médicale diverses, tels que l'IRM, l'ultrason ou la dermoscopie.
-% \end{description}
+\subsection{Publications et communications}
+\subsubsection{En tant que premier auteur}
+Some of the following artciles will be attached in the Annex.
+\begin{itemize}
+   \small{
+   \item[] \textbf{Automatic Differentiation of Melanoma from Dysplastic Nevi}, 
+   M. Rastgoo, O. Morel, F. Marzani and R. Garcia, 
+\emph{Computerized Medical Imaging and Graphics}, vol.43, pp 44-52, 2015
+   \item[] \textbf{Study of Data Imbalancing for Melanoma Classification},
+   M. Rastgoo, G. Lemaitre, J. Massich, O.Morel, F. Marzani, R. Garcia and F. Meriaudeau, 
+    \emph{$3^{rd}$ International Conference on BIOIMAGING 2016.} Rome: Italy (February 2016)
+   \item[] \textbf{Classification of melanoma lesions using sparse coded features and radnom forests}, 
+   M. Rastgoo, G. Lemaitre, O.Morel, J. Massich, F. Marzani, R. Garcia and D. Sidibe,
+   \emph{SPIE Medical Imaging 2016.} San Diego: USA (February 2016)
+   \item[]\textbf{Ensemble Approach for Differentiation of Malignant Melanoma},
+   M. Rastgoo, O. Morel, F. Marzani and R. Garcia, 
+    \emph{International Conference on Quality Control and Artificial Vision (QCAV) 2015.} Le Creusot: France (June 2015)
+   \item[]\textbf{Pruning AdaBoost for Continuous Sensors Mining Applications},
+   M. Rastgoo, G. Lemaitre, X. Rafael, F. Miralles and P. Casale, 
+   \emph{Ubiquitous Data Mining Workshop, 20th European Conference in Artificial Intelligence 2012.} Montpellier: France (August 2012)
+   \item[]\textbf{An Approach to Melanoma Classification Exploiting Polarization Information},
+   M. Rastgoo, \emph{Universitst de Girona, Universit\'e de Bourgogne.} 2016, PhD thesis.
+   \item[]\textbf{Change Detection in Epiluminescent Microscopy for Early Detection of Skin Cancer},
+   M. Rastgoo, \emph{Universitst de Girona, Universit\'e de Bourgogne, Heriot Watt University.} 2011, Master thesis.
+   }
+\end{itemize}
+
+\subsubsection{En tant que collaborateur}
+Some of the following article will be attached in the Annex.
+
+\begin{itemize}
+\small{
+
+\item[]\textbf{Exploration of Deep Learning-based Multimodal Fusion for Semantic Road Scene Segmentation},
+Y. Zhang, O. Morel, M. Blanchon, R. Seulin, M. Rastgoo, Mojdeh and D. Sidibe,
+\emph{14th International Conference on Computer vision Theory and Application, VISAPP}, 2019
+
+\item[]\textbf{An anomaly detection approach for the identification of DME patients using SD-OCT images},
+D. Sidibe, S. Sankar, G. Lemaitre, M. Rastgoo, J. Massich, C. Y. Cheung, G. S. W. Tan, D. Milea, E. Lamoureux, T. Y. Wong, and F. Meriaudeau 
+ \emph{Computer Methods and Programs in Biomedicine}, vol. 139, pp. 109-117, February 2017
+
+\item[]\textbf{Machine learning techniques for diabetic macular edema (DME) classification on SD-OCT images},
+K. Alsaih, G. Lemaitre, M. Rastgoo, J. Massich, D. Sidibé, and F. Meriaudeau, 
+\emph{BioMedical Engineering Online} vol. 16(1), pp. 68-80, June 2017
+
+\item[]\textbf{Computer-Aided Detection for Prostate Cancer Detection based on Multi-Parametric Magnetic Resonance Imaging},
+G. Lemaitre, R. Marti,M. Rastgoo, and F. Meriaudeau,
+\emph{39th International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)}, 2017 
+
+\item[]\textbf{Classification of SD-OCT Volumes using Local Binary Patterns: Experimental Validation for DME detection},
+G. Lemaitre,M. Rastgoo, J. Massich, C. Y. Cheung, T. Y. Wong, E. Lamoureux, D. Milea, F. Meriaudeau, and D. Sidibe,
+\emph{Journal of Ophthalmology}, vol. 2016, May 2016
+
+\item[]\textbf{On spatio-temporal saliency detection in videos using multilinear PCA},
+D. Sidibe, M. Rastgoo and F. Meriaudeau, 
+\emph{23rd International Conference on Pattern Recognition (ICPR)}, 2016. Cancun: Mexico (December 2016) 
+
+\item[]\textbf{Classifying DME vs normal SD-OCT volumes: A review}, 
+J. Massich,M. Rastgoo, G. Lemaitre, C. Cheung, T. Y. Wong, D. Sidibe, and F. Meriaudeau,
+\emph{23rd International Conference on Pattern Recognition (ICPR)}, 2016 Cancun: Mexico (December 2016)
+
+\item[]\textbf{Classification of SD-OCT volumes with multi-pyramids, LBP and HoG descriptors: Application to DME detection},
+K. Alsaih, G. Lemaitre, J. Massich,M. Rastgoo, D. Sidibe, T. Y. Wong, E. Lamoureux, D. Milea, C. Leung, and F. Meriaudeau,
+\emph{38th International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)}, 2016. Orlando: USA (August 2016) 
+
+\item[]\textbf{Classification of SD-OCT volumes with LBP: Application to DME detection},
+G. Lemaitre, M. Rastgoo, J. Massich, S. Sankar, F. Meriaudeau, and D. Sidibe,
+\emph{Ophthalmic Medical Image Analysis Workshop (OMIA), Medical Image Computing and Computer Assisted Interventions (MICCAI)}, 
+2015. Munich: Germany (October 2015)
+}
+
+\end{itemize}
+
+
+\chapter{Enseignement}\label{teaching}
+The aim of this section is to explain in more detail my personal experience of teacting.
+This section also highlights my competences, strengths, approach, and my suggestions for possible courses. 
+My experience and my suggestions are along my expertiese in artifiial intelligence and image processing.
+However thanks to my master formation I would be capabale to teach Robotics courses as well. \\
+
+\textbf{Key words} : singal processing, image processing, machine learning, , software engineering
+
+
+\section{Détails des enseignements effectués}\label{sec:details}
+
+\subsection{Image Processing}
+J'ai etais en charge de TP et TD de cette cours pendant deux annees de 2017 et 2018.
+Cet enseignement a eu pour but d'introduire les bases du traitement d'image à des étudiants 
+de Master 1 vision and robotics (Vibot), computer vision (MsCV), medical imaging and
+applications (MAIA). Les TDs et TPs ont abordés en
+details les sujets suivants : l'amélioration d'image, l'égualisation
+d'histogramme, les techniques de seuillage, les filtrages dans
+l'espace des fréquences et spatial, les opérations morphologiques et
+la segmentation. Les TPs ont été enseignés en utilisant le language
+Python. Les étudiants ont également eu l'occasion de travailler de
+manière collaborative avec des outils telsque git et GitHub lors de
+projets. De plus, les TPs et TDs ont été organisés de manière
+attractive, tel que les étudiants ont été évalués sur leur
+progression, participation et examens.
+
+
+
+\subsection{Computer-aided design I - Maple}
+J'ai etait en charge de TP de cette cours pendant de aneees 2017, 2018. 
+ Le but de cet enseignement fut l'introduction d'outils nécessaire pour la modélisation
+  mathématiques. En plus de l'analyse numérique, ce cours a introduit
+  les languages de programmation Python,  à des étudiants de
+  Licence 3. Les TPs ont présenté les bases de Sympy par le biais
+  d'analyse et représentation de fonction, d'algèbre linéaire et des
+  séries de Fourier. Pour chaque aspect, plusieurs applications ont
+  été résolus par les étudiants pour qu'ils se familiarisent aves les
+  aspects théoriques et applicatifs. Les TP sont organiser en manier interactive en utilisent jupyter notebook, git et github.
+  Les etudents etaient évalue base de sont participations, progression pendant le cours, et le examens.
+
+  \subsection{Digital signal processing}
+J'ai etais en charge de TP de cette cours pendant l'annee 2017. 
+ Digital signal processing est un module des Masters 1 Vibot,
+  MsCV et MAIA. Ce cours présente aussi bien le traitement du signal analogique
+  et numérique avec des thématiques tel que la transformée
+  de Fourier, les systèmes linéaires et le filtrage. Les TPs ont été
+  réalisés en Python et Matlab, laissant aux étudiants le choix du
+  language de programmation. Durant ces séances, les étudiants ont pu
+  se familiariser à la fois avec les bases théoriques mais également
+  les problèmes applicatifs. Comme pour le module précédent, les
+  étudiants ont utilisé des outils collaboratifs par le biais de git
+  et GitHub. La méthode d'évaluation mise en place est la même présentée dans le module précédent.
+
+  \subsection{Medical image analysis}
+   est un cours qui a été enseigné au
+  Master 1 Vibot, durant mon doctorat à l'universitat de Girona (l'anees 2013 et 2014).
+  Ce
+  cours présente les bases de l'imagerie médicale, de l'acquisition
+  d'images jusqu'au traitement de celles-ci, en passant par les
+  problématiques de stockage. Les TPs et TDs ont mis l'accent sur le
+  format DICOM ainsi que les problématiques de segmentation et
+  registration en utilisant différents outils tels qu'ITK et Mevislab.
+  Les étudiants se sont familiarisés avec des méthodes
+  d'imagerie médicale diverses, tels que l'IRM, l'ultrason ou la dermoscopie.
+
+
+\chapter{Research}\label{researchmain}
 
 
 
@@ -339,6 +439,24 @@ en détail dans la partie consacrée à la recherche (cf. section III)\\
 % \end{table}
 % Mots-clés: Images et g\'eom\'etrie, sc\`enes, parole, signaux, Intelligence artificielle, Data mining
 
-            
+% Polar abstract: In the robotic field, navigation and path planningapplications  benefit  
+% from  a  wide  range  of  visual  systems  (e.g.perspective cameras, depth cameras, 
+% catadioptric cameras, etc.).
+% In  outdoor  conditions,  these  systems  capture 
+%  information  inwhich   sky   regions   cover   a   major   segment  
+%   of   the   imagesacquired.  
+%   However,  sky  regions  are  discarded  and  are  
+%   notconsidered  as  visual  cue  in  vision  applications.  
+%   In  this  paper, we  propose  to  estimate  attitude  of  
+%   Unmanned  Aerial  Vehicle(UAV) from sky information using a
+% polarimetric camera. 
+% Theoretically, we provide a framework estimating the attitude from 
+% the  skylight  polarized  patterns.  
+% We  showcase  this  formulationon  both  simulated  and  real-word  data  sets  
+% which  proved  the benefit  of  using  polarimetric  sensors  
+% along  with  other  visualsensors in robotic applications.            
+
+
+
 \end{document}
 
